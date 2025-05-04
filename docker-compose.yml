@@ -1,0 +1,41 @@
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: violencia-db
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=TuPasswordFuerte123!
+      - MSSQL_PID=Developer
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlserver_data:/var/opt/mssql
+      - ./csv:/data
+    networks:
+      - sql-network
+
+  flyway:
+    image: flyway/flyway:latest
+    container_name: flyway
+    depends_on:
+      - sqlserver
+    volumes:
+      - ./sql/migration:/flyway/sql
+    entrypoint: [
+          "flyway",
+          "-url=jdbc:sqlserver://sqlserver:1433;databaseName=master;trustServerCertificate=true",
+          "-user=sa",
+          "-password=TuPasswordFuerte123!",
+          "-connectRetries=10",
+          "-locations=filesystem:/flyway/sql",
+          "migrate"
+        ]
+    networks:
+      - sql-network
+
+volumes:
+  sqlserver_data:
+
+networks:
+  sql-network:
+    driver: bridge
