@@ -1,41 +1,41 @@
 services:
-  sqlserver:
-    image: mcr.microsoft.com/mssql/server:2022-latest
+  postgres:
+    image: postgres:16
     container_name: violencia-db
     environment:
-      - ACCEPT_EULA=Y
-      - SA_PASSWORD=TuPasswordFuerte123!
-      - MSSQL_PID=Developer
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: TuPasswordFuerte123!
+      POSTGRES_DB: violencia
     ports:
-      - "1433:1433"
+      - "5432:5432"
     volumes:
-      - sqlserver_data:/var/opt/mssql
+      - postgres_data:/var/lib/postgresql/data
       - ./csv:/data
     networks:
-      - sql-network
+      - pg-network
 
   flyway:
     image: flyway/flyway:latest
     container_name: flyway
     depends_on:
-      - sqlserver
+      - postgres
     volumes:
       - ./sql/migration:/flyway/sql
     entrypoint: [
-          "flyway",
-          "-url=jdbc:sqlserver://sqlserver:1433;databaseName=master;trustServerCertificate=true",
-          "-user=sa",
-          "-password=TuPasswordFuerte123!",
-          "-connectRetries=10",
-          "-locations=filesystem:/flyway/sql",
-          "migrate"
-        ]
+      "flyway",
+      "-url=jdbc:postgresql://postgres:5432/violencia",
+      "-user=postgres",
+      "-password=TuPasswordFuerte123!",
+      "-connectRetries=10",
+      "-locations=filesystem:/flyway/sql",
+      "migrate"
+    ]
     networks:
-      - sql-network
+      - pg-network
 
 volumes:
-  sqlserver_data:
+  postgres_data:
 
 networks:
-  sql-network:
+  pg-network:
     driver: bridge
