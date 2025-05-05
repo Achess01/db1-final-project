@@ -51,13 +51,25 @@ WHERE sexo_per IS NOT NULL AND sexo_per <> 'Ignorada'
     SELECT 1 FROM typology t WHERE t.value = sexo_per AND t.parent_id = 4
 );
 
+-- Insert parent crime
+INSERT INTO typology (value, parent_id) VALUES ('CRIME', NULL); -- 7
+
+INSERT INTO typology (value, parent_id)
+SELECT DISTINCT delito_com, 7
+FROM violencia_raw
+WHERE delito_com IS NOT NULL
+  AND NOT EXISTS (
+    SELECT 1 FROM typology t WHERE t.value = delito_com AND t.parent_id = 7
+);
+
 INSERT INTO detention (
     detention_id,
     detention_date,
     tp_area_id,
     zone,
     tp_gender_id,
-    territory_id
+    territory_id,
+    tp_crime_id
 )
 SELECT
     num_corre::INT,
@@ -84,7 +96,8 @@ SELECT
         ELSE NULL
     END AS zone,
     tp_gender.typology_id,
-    t.territory_id
+    t.territory_id,
+    tp_crime.typology_id
 FROM violencia_raw csv
 LEFT JOIN typology tp_area
     ON tp_area.parent_id = 1 AND TRIM(tp_area.value) = TRIM(csv.area_geo_ocu)
@@ -98,5 +111,7 @@ LEFT JOIN territory t ON
         WHERE TRIM(d.name) = TRIM(csv.depto_ocu) AND d.parent_id IS NULL
         LIMIT 1
     )
+LEFT JOIN typology tp_crime
+    ON tp_crime.parent_id = 7 AND TRIM(tp_crime.value) = TRIM(csv.delito_com)
 WHERE
     día_ocu ~ '^[0-9]+$' AND hora_ocu ~ '^[0-9]+$';

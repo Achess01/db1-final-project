@@ -13,7 +13,6 @@ CREATE TABLE typology (
                 CONSTRAINT typology_pk PRIMARY KEY (typology_id)
 );
 
-
 CREATE TABLE detention (
                 detention_id INTEGER NOT NULL,
                 detention_date TIMESTAMP NOT NULL,
@@ -21,6 +20,7 @@ CREATE TABLE detention (
                 zone INTEGER,
                 tp_gender_id INTEGER,
                 territory_id INTEGER,
+                tp_crime_id INTEGER NOT NULL,
                 CONSTRAINT detention_pk PRIMARY KEY (detention_id)
 );
 
@@ -54,6 +54,13 @@ NOT DEFERRABLE;
 
 ALTER TABLE detention ADD CONSTRAINT topology_detention_fk1
 FOREIGN KEY (tp_gender_id)
+REFERENCES typology (typology_id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE;
+
+ALTER TABLE detention ADD CONSTRAINT typology_detention_fk
+FOREIGN KEY (tp_crime_id)
 REFERENCES typology (typology_id)
 ON DELETE NO ACTION
 ON UPDATE NO ACTION
