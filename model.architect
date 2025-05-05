@@ -164,10 +164,10 @@
     <column id="COL43" populated="true" UUID="324a520b-00d8-4e0f-8647-a846b4a14953" autoIncrement="false" autoIncrementSequenceName="exhumation_exhumation_date_seq" defaultValue="" name="exhumation_date" nullable="0" physicalName="exhumation_date" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="91" userDefinedTypeUUID="ee349be3-6af2-46e1-b305-975f5354b009" >
      <remarks></remarks>
     </column>
-    <column id="COL44" populated="true" UUID="9a6513e6-c26c-41b8-8fea-51d3af45feab" autoIncrement="false" autoIncrementSequenceName="territory_territorio_id_seq" defaultValue="" name="territory_id" nullable="0" physicalName="territory_id" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+    <column id="COL44" populated="true" UUID="9a6513e6-c26c-41b8-8fea-51d3af45feab" autoIncrement="false" autoIncrementSequenceName="territory_territorio_id_seq_1_1_1" defaultValue="" name="territory_id" nullable="0" physicalName="territory_id" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks></remarks>
     </column>
-    <column id="COL45" populated="true" UUID="9f6703de-4423-4539-885a-7aa9923bcf12" autoIncrement="false" autoIncrementSequenceName="detention_detention_id_seq" defaultValue="" name="detention_id" nullable="0" physicalName="detention_id" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="-5" userDefinedTypeUUID="433cc8af-284d-4abb-8ef7-08ebcb34dbf1" >
+    <column id="COL45" populated="true" UUID="9f6703de-4423-4539-885a-7aa9923bcf12" autoIncrement="false" autoIncrementSequenceName="detention_detention_id_seq_1" defaultValue="" name="detention_id" nullable="0" physicalName="detention_id" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="-5" userDefinedTypeUUID="433cc8af-284d-4abb-8ef7-08ebcb34dbf1" >
      <remarks></remarks>
     </column>
     </folder>
@@ -228,7 +228,7 @@
   <table-pane table-ref="TAB7" x="553" y="1291" bgColor="0xbfd6ff" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-pane table-ref="TAB14" x="1190" y="992" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-pane table-ref="TAB24" x="583" y="551" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
-  <table-pane table-ref="TAB32" x="1042" y="147" bgColor="0xc8b7ea" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB32" x="967" y="129" bgColor="0xc8b7ea" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-pane table-ref="TAB41" x="1138" y="1326" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-link relationship-ref="REL48" pkConnection="0.5" fkConnection="0.0" rLineColor="0x333333" pkLabelText="" fkLabelText="" orientation="36"/>
   <table-link relationship-ref="REL58" pkConnection="0.49809885931558934" fkConnection="0.0" rLineColor="0x333333" pkLabelText="" fkLabelText="" orientation="36"/>

@@ -1,28 +1,3 @@
--- Create table
-CREATE TABLE exhumation (
-                exhumation_id BIGINT NOT NULL,
-                exhumation_date DATE NOT NULL,
-                territory_id INTEGER NOT NULL,
-                detention_id BIGINT NOT NULL,
-                CONSTRAINT exhumation_pk PRIMARY KEY (exhumation_id)
-);
-
-
-ALTER TABLE exhumation ADD CONSTRAINT territory_exhumation_fk
-FOREIGN KEY (territory_id)
-REFERENCES territory (territory_id)
-ON DELETE NO ACTION
-ON UPDATE NO ACTION
-NOT DEFERRABLE;
-
-ALTER TABLE exhumation ADD CONSTRAINT detention_exhumation_fk
-FOREIGN KEY (detention_id)
-REFERENCES detention (detention_id)
-ON DELETE NO ACTION
-ON UPDATE NO ACTION
-NOT DEFERRABLE;
-
--- Insert data
 CREATE TEMP TABLE tmp_exhumation_raw (
     núm_corre TEXT,
     año_ocu TEXT,

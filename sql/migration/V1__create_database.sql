@@ -34,6 +34,59 @@ CREATE TABLE detention (
                 CONSTRAINT detention_pk PRIMARY KEY (detention_id)
 );
 
+CREATE TABLE necropcy (
+                necropcy_id BIGINT NOT NULL,
+                necropcy_date DATE NOT NULL,
+                territory_id INTEGER,
+                tp_causa_id INTEGER NOT NULL,
+                person_id BIGINT NOT NULL,
+                CONSTRAINT necropcy_pk PRIMARY KEY (necropcy_id)
+);
+
+CREATE TABLE exhumation (
+                exhumation_id BIGINT NOT NULL,
+                exhumation_date DATE NOT NULL,
+                territory_id INTEGER NOT NULL,
+                detention_id BIGINT NOT NULL,
+                CONSTRAINT exhumation_pk PRIMARY KEY (exhumation_id)
+);
+
+
+ALTER TABLE exhumation ADD CONSTRAINT territory_exhumation_fk
+FOREIGN KEY (territory_id)
+REFERENCES territory (territory_id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE;
+
+ALTER TABLE exhumation ADD CONSTRAINT detention_exhumation_fk
+FOREIGN KEY (detention_id)
+REFERENCES detention (detention_id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE;
+
+ALTER TABLE necropcy ADD CONSTRAINT territory_necropcy_fk
+FOREIGN KEY (territory_id)
+REFERENCES territory (territory_id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE;
+
+ALTER TABLE necropcy ADD CONSTRAINT typology_necropcy_fk
+FOREIGN KEY (tp_causa_id)
+REFERENCES typology (typology_id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE;
+
+ALTER TABLE necropcy ADD CONSTRAINT person_necropcy_fk
+FOREIGN KEY (person_id)
+REFERENCES person (person_id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE;
+
 ALTER TABLE territory ADD CONSTRAINT territory_territory_fk
 FOREIGN KEY (parent_id)
 REFERENCES territory (territory_id)
