@@ -1,3 +1,13 @@
+CREATE TABLE person (
+                person_id SERIAL,
+                date_of_death TIMESTAMP,
+                tp_gender_id INTEGER,
+                age INTEGER,
+                first_name VARCHAR(50) NOT NULL,
+                last_name VARCHAR(100) NOT NULL,
+                CONSTRAINT person_pk PRIMARY KEY (person_id)
+);
+
 CREATE TABLE territory (
                 territory_id INTEGER NOT NULL,
                 name VARCHAR(40) NOT NULL,
@@ -14,13 +24,13 @@ CREATE TABLE typology (
 );
 
 CREATE TABLE detention (
-                detention_id INTEGER NOT NULL,
+                detention_id BIGINT NOT NULL,
                 detention_date TIMESTAMP NOT NULL,
                 tp_area_id INTEGER,
                 zone INTEGER,
-                tp_gender_id INTEGER,
                 territory_id INTEGER,
                 tp_crime_id INTEGER NOT NULL,
+                person_id BIGINT NOT NULL,
                 CONSTRAINT detention_pk PRIMARY KEY (detention_id)
 );
 
@@ -52,16 +62,23 @@ ON DELETE NO ACTION
 ON UPDATE NO ACTION
 NOT DEFERRABLE;
 
-ALTER TABLE detention ADD CONSTRAINT topology_detention_fk1
+ALTER TABLE detention ADD CONSTRAINT typology_detention_fk
+FOREIGN KEY (tp_crime_id)
+REFERENCES typology (typology_id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE;
+
+ALTER TABLE person ADD CONSTRAINT typology_person_fk
 FOREIGN KEY (tp_gender_id)
 REFERENCES typology (typology_id)
 ON DELETE NO ACTION
 ON UPDATE NO ACTION
 NOT DEFERRABLE;
 
-ALTER TABLE detention ADD CONSTRAINT typology_detention_fk
-FOREIGN KEY (tp_crime_id)
-REFERENCES typology (typology_id)
+ALTER TABLE detention ADD CONSTRAINT person_detention_fk
+FOREIGN KEY (person_id)
+REFERENCES person (person_id)
 ON DELETE NO ACTION
 ON UPDATE NO ACTION
 NOT DEFERRABLE;

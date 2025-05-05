@@ -62,14 +62,36 @@ WHERE delito_com IS NOT NULL
     SELECT 1 FROM typology t WHERE t.value = delito_com AND t.parent_id = 7
 );
 
+-- Insert persons
+INSERT INTO person (
+    date_of_death,
+    tp_gender_id,
+    age,
+    first_name,
+    last_name
+)
+SELECT
+    null,
+    tp_gender.typology_id,
+    CASE
+        WHEN csv.edad_per ~ '^\d+$' THEN csv.edad_per::INT
+        ELSE NULL
+    END AS age,
+    'Persona',
+    CONCAT('Detenida ', csv.num_corre)
+FROM violencia_raw csv
+LEFT JOIN typology tp_gender
+    ON tp_gender.parent_id = 4 AND TRIM(tp_gender.value) = TRIM(csv.sexo_per);
+
+
 INSERT INTO detention (
     detention_id,
     detention_date,
     tp_area_id,
     zone,
-    tp_gender_id,
     territory_id,
-    tp_crime_id
+    tp_crime_id,
+    person_id
 )
 SELECT
     num_corre::INT,
@@ -95,14 +117,14 @@ SELECT
         WHEN csv.zona_ocu ~ '^\d+$' THEN csv.zona_ocu::INT
         ELSE NULL
     END AS zone,
-    tp_gender.typology_id,
     t.territory_id,
-    tp_crime.typology_id
+    tp_crime.typology_id,
+    p.person_id
 FROM violencia_raw csv
+JOIN person p
+    ON p.last_name = CONCAT('Detenida ', csv.num_corre)
 LEFT JOIN typology tp_area
     ON tp_area.parent_id = 1 AND TRIM(tp_area.value) = TRIM(csv.area_geo_ocu)
-LEFT JOIN typology tp_gender
-    ON tp_gender.parent_id = 4 AND TRIM(tp_gender.value) = TRIM(csv.sexo_per)
 LEFT JOIN territory t ON
     TRIM(t.name) = TRIM(csv.mupio_ocu) AND
     t.parent_id = (
