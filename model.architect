@@ -323,13 +323,13 @@
     <column id="COL86" populated="true" UUID="b8e90f4e-8f86-4313-91ad-cc3bddd45689" autoIncrement="false" autoIncrementSequenceName="pregnancy_age_at_pregnancy_seq" defaultValue="" name="age_at_pregnancy" nullable="0" physicalName="age_at_pregnancy" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="5" userDefinedTypeUUID="69fb547f-e14c-4748-9746-4c0e9e94eb52" >
      <remarks></remarks>
     </column>
-    <column id="COL87" populated="true" UUID="7e86d872-a362-4b5c-a6ad-9c13398102cb" autoIncrement="false" autoIncrementSequenceName="person_person_id_seq_1_1" defaultValue="" name="person_id" nullable="0" physicalName="person_id" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="-5" userDefinedTypeUUID="433cc8af-284d-4abb-8ef7-08ebcb34dbf1" >
+    <column id="COL87" populated="true" UUID="7e86d872-a362-4b5c-a6ad-9c13398102cb" autoIncrement="false" autoIncrementSequenceName="person_person_id_seq_1_1_1_1" defaultValue="" name="person_id" nullable="0" physicalName="person_id" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="-5" userDefinedTypeUUID="433cc8af-284d-4abb-8ef7-08ebcb34dbf1" >
      <remarks></remarks>
     </column>
     <column id="COL88" populated="true" UUID="a9ab039f-c14b-443e-ae32-002a2b6b54ea" autoIncrement="false" autoIncrementSequenceName="pregnancy_result_pregnancy_result_id_seq" defaultValue="" name="pregnancy_result_id" nullable="0" physicalName="pregnancy_result_id" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="-5" userDefinedTypeUUID="433cc8af-284d-4abb-8ef7-08ebcb34dbf1" >
      <remarks></remarks>
     </column>
-    <column id="COL89" populated="true" UUID="21aacb81-b158-446e-a104-8efc9c831334" autoIncrement="false" autoIncrementSequenceName="territory_territorio_id_seq" defaultValue="" name="territory_id" nullable="0" physicalName="territory_id" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+    <column id="COL89" populated="true" UUID="21aacb81-b158-446e-a104-8efc9c831334" autoIncrement="false" autoIncrementSequenceName="territory_territorio_id_seq_1_1_1_1_1_1" defaultValue="" name="territory_id" nullable="0" physicalName="territory_id" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks></remarks>
     </column>
     </folder>
@@ -346,7 +346,7 @@
   <table id="TAB92" populated="true" UUID="c5824fd1-1c5e-4e3c-9487-2970d935a2e1" name="pregnancy_result" objectType="TABLE" physicalName="pregnancy_result" >
    <remarks></remarks>
    <folder id="FOLTAB921" populated="true" name="Columns" physicalName="Columns" type="1">
-    <column id="COL93" populated="true" UUID="f7b8b8d5-0117-436d-a913-ef81bdb73782" autoIncrement="true" autoIncrementSequenceName="pregnancy_result_pregnancy_result_id_seq" defaultValue="" name="pregnancy_result_id" nullable="0" physicalName="pregnancy_result_id" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="-5" userDefinedTypeUUID="433cc8af-284d-4abb-8ef7-08ebcb34dbf1" >
+    <column id="COL93" populated="true" UUID="f7b8b8d5-0117-436d-a913-ef81bdb73782" autoIncrement="true" autoIncrementSequenceName="pregnancy_result_pregnancy_result_id_seq_1" defaultValue="" name="pregnancy_result_id" nullable="0" physicalName="pregnancy_result_id" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="-5" userDefinedTypeUUID="433cc8af-284d-4abb-8ef7-08ebcb34dbf1" >
      <remarks></remarks>
     </column>
     <column id="COL94" populated="true" UUID="e4dcc2ca-81ce-4df0-9563-a45b23790cfc" autoIncrement="false" autoIncrementSequenceName="pregnancy_result_description_seq" defaultValue="" name="description" nullable="0" physicalName="description" precision="100" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
