@@ -1,3 +1,9 @@
+CREATE TABLE diagnosis (
+                diagnosis_id SERIAL,
+                description VARCHAR(100) NOT NULL,
+                CONSTRAINT diagnosis_pk PRIMARY KEY (diagnosis_id)
+);
+
 CREATE TABLE law (
                 law_id SERIAL,
                 name VARCHAR(100) NOT NULL,
@@ -51,6 +57,22 @@ CREATE TABLE offense (
                 CONSTRAINT offense_pk PRIMARY KEY (offense_id)
 );
 
+CREATE TABLE offended (
+                offended_id SERIAL,
+                person_id BIGINT NOT NULL,
+                offense_id BIGINT NOT NULL,
+                CONSTRAINT offended_pk PRIMARY KEY (offended_id)
+);
+
+CREATE TABLE medical_evaluation (
+                medical_evaluation_id BIGINT NOT NULL,
+                medical_check_date VARCHAR NOT NULL,
+                territory_id INTEGER NOT NULL,
+                diagnosis_id BIGINT NOT NULL,
+                offended_id BIGINT NOT NULL,
+                CONSTRAINT medical_evaluation_pk PRIMARY KEY (medical_evaluation_id)
+);
+
 CREATE TABLE judgment (
                 judgment_id BIGINT NOT NULL,
                 judgement_date DATE NOT NULL,
@@ -70,6 +92,12 @@ CREATE TABLE exhumation (
                 CONSTRAINT exhumation_pk PRIMARY KEY (exhumation_id)
 );
 
+ALTER TABLE medical_evaluation ADD CONSTRAINT diagnosis_medical_evaluation_fk
+FOREIGN KEY (diagnosis_id)
+REFERENCES diagnosis (diagnosis_id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE;
 
 ALTER TABLE judgment ADD CONSTRAINT law_judgment_fk
 FOREIGN KEY (law_id)
@@ -107,6 +135,13 @@ ON UPDATE NO ACTION
 NOT DEFERRABLE;
 
 ALTER TABLE judgment ADD CONSTRAINT territory_judgment_fk
+FOREIGN KEY (territory_id)
+REFERENCES territory (territory_id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE;
+
+ALTER TABLE medical_evaluation ADD CONSTRAINT territory_medical_check_fk
 FOREIGN KEY (territory_id)
 REFERENCES territory (territory_id)
 ON DELETE NO ACTION
@@ -176,6 +211,13 @@ ON DELETE NO ACTION
 ON UPDATE NO ACTION
 NOT DEFERRABLE;
 
+ALTER TABLE offended ADD CONSTRAINT person_offended_fk
+FOREIGN KEY (person_id)
+REFERENCES person (person_id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE;
+
 ALTER TABLE exhumation ADD CONSTRAINT detention_exhumation_fk
 FOREIGN KEY (offense_id)
 REFERENCES offense (offense_id)
@@ -186,6 +228,20 @@ NOT DEFERRABLE;
 ALTER TABLE judgment ADD CONSTRAINT offense_judgment_fk
 FOREIGN KEY (offense_id)
 REFERENCES offense (offense_id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE;
+
+ALTER TABLE offended ADD CONSTRAINT offense_offended_fk
+FOREIGN KEY (offense_id)
+REFERENCES offense (offense_id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE;
+
+ALTER TABLE medical_evaluation ADD CONSTRAINT offended_medical_evaluation_fk
+FOREIGN KEY (offended_id)
+REFERENCES offended (offended_id)
 ON DELETE NO ACTION
 ON UPDATE NO ACTION
 NOT DEFERRABLE;
