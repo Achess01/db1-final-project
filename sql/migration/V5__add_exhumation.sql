@@ -18,7 +18,7 @@ INSERT INTO exhumation (
     exhumation_id,
     exhumation_date,
     territory_id,
-    detention_id
+    offense_id
 )
 SELECT
     núm_corre::BIGINT AS exhumation_id,
@@ -39,7 +39,7 @@ SELECT
         ), 'YYYY-MM-DD'
     ) AS exhumation_date,
     t.territory_id,
-    d.detention_id
+    d.offense_id
 FROM tmp_exhumation_raw r
 LEFT JOIN territory t ON TRIM(t.name) = TRIM(r.depto_ocu) AND t.parent_id IS NULL
-LEFT JOIN detention d ON d.detention_id = r.núm_corre::BIGINT;
+LEFT JOIN offense d ON d.offense_id = r.núm_corre::BIGINT;

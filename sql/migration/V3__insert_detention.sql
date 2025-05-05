@@ -84,9 +84,9 @@ LEFT JOIN typology tp_gender
     ON tp_gender.parent_id = 4 AND TRIM(tp_gender.value) = TRIM(csv.sexo_per);
 
 
-INSERT INTO detention (
-    detention_id,
-    detention_date,
+INSERT INTO offense (
+    offense_id,
+    offense_date,
     tp_area_id,
     zone,
     territory_id,

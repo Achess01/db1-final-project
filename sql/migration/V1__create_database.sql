@@ -23,15 +23,15 @@ CREATE TABLE typology (
                 CONSTRAINT typology_pk PRIMARY KEY (typology_id)
 );
 
-CREATE TABLE detention (
-                detention_id BIGINT NOT NULL,
-                detention_date TIMESTAMP NOT NULL,
+CREATE TABLE offense (
+                offense_id BIGINT NOT NULL,
+                offense_date TIMESTAMP NOT NULL,
                 tp_area_id INTEGER,
                 zone INTEGER,
                 territory_id INTEGER,
                 tp_crime_id INTEGER NOT NULL,
                 person_id BIGINT NOT NULL,
-                CONSTRAINT detention_pk PRIMARY KEY (detention_id)
+                CONSTRAINT offense_pk PRIMARY KEY (offense_id)
 );
 
 CREATE TABLE necropcy (
@@ -47,21 +47,21 @@ CREATE TABLE exhumation (
                 exhumation_id BIGINT NOT NULL,
                 exhumation_date DATE NOT NULL,
                 territory_id INTEGER NOT NULL,
-                detention_id BIGINT NOT NULL,
+                offense_id BIGINT NOT NULL,
                 CONSTRAINT exhumation_pk PRIMARY KEY (exhumation_id)
 );
 
 
-ALTER TABLE exhumation ADD CONSTRAINT territory_exhumation_fk
-FOREIGN KEY (territory_id)
+ALTER TABLE territory ADD CONSTRAINT territory_territory_fk
+FOREIGN KEY (parent_id)
 REFERENCES territory (territory_id)
 ON DELETE NO ACTION
 ON UPDATE NO ACTION
 NOT DEFERRABLE;
 
-ALTER TABLE exhumation ADD CONSTRAINT detention_exhumation_fk
-FOREIGN KEY (detention_id)
-REFERENCES detention (detention_id)
+ALTER TABLE offense ADD CONSTRAINT territory_detention_fk
+FOREIGN KEY (territory_id)
+REFERENCES territory (territory_id)
 ON DELETE NO ACTION
 ON UPDATE NO ACTION
 NOT DEFERRABLE;
@@ -73,28 +73,7 @@ ON DELETE NO ACTION
 ON UPDATE NO ACTION
 NOT DEFERRABLE;
 
-ALTER TABLE necropcy ADD CONSTRAINT typology_necropcy_fk
-FOREIGN KEY (tp_causa_id)
-REFERENCES typology (typology_id)
-ON DELETE NO ACTION
-ON UPDATE NO ACTION
-NOT DEFERRABLE;
-
-ALTER TABLE necropcy ADD CONSTRAINT person_necropcy_fk
-FOREIGN KEY (person_id)
-REFERENCES person (person_id)
-ON DELETE NO ACTION
-ON UPDATE NO ACTION
-NOT DEFERRABLE;
-
-ALTER TABLE territory ADD CONSTRAINT territory_territory_fk
-FOREIGN KEY (parent_id)
-REFERENCES territory (territory_id)
-ON DELETE NO ACTION
-ON UPDATE NO ACTION
-NOT DEFERRABLE;
-
-ALTER TABLE detention ADD CONSTRAINT territory_detention_fk
+ALTER TABLE exhumation ADD CONSTRAINT territory_exhumation_fk
 FOREIGN KEY (territory_id)
 REFERENCES territory (territory_id)
 ON DELETE NO ACTION
@@ -108,14 +87,14 @@ ON DELETE NO ACTION
 ON UPDATE NO ACTION
 NOT DEFERRABLE;
 
-ALTER TABLE detention ADD CONSTRAINT topology_detention_fk
+ALTER TABLE offense ADD CONSTRAINT topology_detention_fk
 FOREIGN KEY (tp_area_id)
 REFERENCES typology (typology_id)
 ON DELETE NO ACTION
 ON UPDATE NO ACTION
 NOT DEFERRABLE;
 
-ALTER TABLE detention ADD CONSTRAINT typology_detention_fk
+ALTER TABLE offense ADD CONSTRAINT typology_detention_fk
 FOREIGN KEY (tp_crime_id)
 REFERENCES typology (typology_id)
 ON DELETE NO ACTION
@@ -129,9 +108,30 @@ ON DELETE NO ACTION
 ON UPDATE NO ACTION
 NOT DEFERRABLE;
 
-ALTER TABLE detention ADD CONSTRAINT person_detention_fk
+ALTER TABLE necropcy ADD CONSTRAINT typology_necropcy_fk
+FOREIGN KEY (tp_causa_id)
+REFERENCES typology (typology_id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE;
+
+ALTER TABLE offense ADD CONSTRAINT person_detention_fk
 FOREIGN KEY (person_id)
 REFERENCES person (person_id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE;
+
+ALTER TABLE necropcy ADD CONSTRAINT person_necropcy_fk
+FOREIGN KEY (person_id)
+REFERENCES person (person_id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE;
+
+ALTER TABLE exhumation ADD CONSTRAINT detention_exhumation_fk
+FOREIGN KEY (offense_id)
+REFERENCES offense (offense_id)
 ON DELETE NO ACTION
 ON UPDATE NO ACTION
 NOT DEFERRABLE;
