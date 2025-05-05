@@ -1,0 +1,1001 @@
+first_name,last_name,pregnancy_year,age_at_pregnancy,result,sex_per,territory_id
+Ursala,Reiner,2011,20,Aborto espontáneo,Mujer,1
+Enrika,Rittmeyer,2011,32,Nacimiento,Mujer,3
+Pamela,Paddon,2014,26,Interrupción,Mujer,19
+Rhetta,Voice,2016,18,Aborto espontáneo,Mujer,20
+Tabbatha,Crayk,2020,31,Interrupción,Mujer,7
+Katlin,Kivelhan,2013,35,Nacimiento,Mujer,20
+Tera,Bretelle,2014,31,Nacimiento,Mujer,16
+Kayley,Pally,2013,20,Nacimiento,Mujer,10
+Grissel,Shelf,2015,15,Aborto espontáneo,Mujer,5
+Kerry,Verty,2022,26,Interrupción,Mujer,11
+Jerrylee,McGonigle,2022,25,Aborto espontáneo,Mujer,17
+Sallee,Ottery,2018,23,Aborto espontáneo,Mujer,2
+Cherri,Asple,2011,21,Interrupción,Mujer,17
+Gael,Wilcott,2013,29,Nacimiento,Mujer,11
+Mavra,Kruszelnicki,2020,21,Interrupción,Mujer,6
+Olive,Matskiv,2014,32,Aborto espontáneo,Mujer,2
+Ailina,Broadwell,2020,33,Aborto espontáneo,Mujer,21
+Debora,Merfin,2021,22,Aborto espontáneo,Mujer,12
+Marinna,Mablestone,2020,22,Nacimiento,Mujer,21
+Kacy,Careless,2011,34,Aborto espontáneo,Mujer,18
+Mahalia,Snar,2018,33,Nacimiento,Mujer,14
+Faun,Allsop,2018,34,Nacimiento,Mujer,1
+Tony,Charlot,2015,32,Aborto espontáneo,Mujer,5
+Blakelee,Gundrey,2015,34,Interrupción,Mujer,10
+Bab,Dallicott,2010,20,Interrupción,Mujer,19
+Olwen,Delleschi,2013,26,Nacimiento,Mujer,18
+Kara-lynn,Thurbon,2017,15,Nacimiento,Mujer,8
+Cari,De Gouy,2016,15,Interrupción,Mujer,17
+Leone,Becconsall,2015,33,Aborto espontáneo,Mujer,22
+Jolynn,Towersey,2021,28,Nacimiento,Mujer,16
+Ashli,Fergyson,2021,28,Nacimiento,Mujer,7
+Rhianon,Bjerkan,2012,17,Interrupción,Mujer,1
+Lexi,Dark,2016,14,Interrupción,Mujer,18
+Gabrielle,Dunne,2010,28,Nacimiento,Mujer,19
+Beatriz,Dumelow,2022,35,Interrupción,Mujer,17
+Rickie,Hadigate,2021,20,Nacimiento,Mujer,3
+Claudetta,Arden,2015,29,Aborto espontáneo,Mujer,8
+Hortensia,Charrett,2022,23,Nacimiento,Mujer,13
+Maddie,Jarry,2017,22,Interrupción,Mujer,17
+Shirleen,MacCartair,2011,24,Aborto espontáneo,Mujer,16
+Leola,Matis,2012,14,Nacimiento,Mujer,20
+Jenilee,Priden,2017,32,Aborto espontáneo,Mujer,20
+Aubine,Sewter,2017,26,Aborto espontáneo,Mujer,4
+Cecelia,Bennitt,2017,31,Interrupción,Mujer,22
+Riannon,Forcer,2017,16,Aborto espontáneo,Mujer,4
+Emylee,McRobb,2022,28,Aborto espontáneo,Mujer,10
+Lucille,Farbrace,2010,26,Nacimiento,Mujer,22
+Deeann,Caudelier,2010,18,Aborto espontáneo,Mujer,13
+Darda,Dulieu,2021,14,Nacimiento,Mujer,8
+Franciska,McCorley,2013,32,Nacimiento,Mujer,13
+Kacy,Treend,2023,35,Aborto espontáneo,Mujer,11
+Dayle,Rain,2017,20,Nacimiento,Mujer,5
+Estrellita,Lorie,2013,30,Aborto espontáneo,Mujer,2
+Gabi,Brent,2014,35,Nacimiento,Mujer,9
+Ilse,Dyke,2015,27,Interrupción,Mujer,17
+Carlyn,Tirone,2010,19,Interrupción,Mujer,7
+Roby,Waulker,2015,32,Aborto espontáneo,Mujer,3
+Dinah,Gallant,2010,21,Nacimiento,Mujer,10
+Kristal,Oldacre,2023,14,Aborto espontáneo,Mujer,5
+Aimil,Bainton,2012,28,Interrupción,Mujer,12
+Lilas,Youll,2015,16,Nacimiento,Mujer,16
+Arlinda,Jurges,2022,27,Nacimiento,Mujer,2
+Ag,Reisen,2012,15,Interrupción,Mujer,15
+Glen,Websdale,2016,32,Aborto espontáneo,Mujer,15
+Melany,Sorley,2016,27,Aborto espontáneo,Mujer,6
+Liza,Sidebotton,2012,34,Aborto espontáneo,Mujer,9
+Farrah,Dy,2012,25,Interrupción,Mujer,22
+Eden,Fratson,2014,21,Interrupción,Mujer,2
+Ginger,Frampton,2014,28,Nacimiento,Mujer,19
+Colline,Dorwood,2023,17,Aborto espontáneo,Mujer,20
+Doll,Ruvel,2019,14,Interrupción,Mujer,4
+L;urette,Gudyer,2015,35,Interrupción,Mujer,1
+Marietta,Crowche,2019,30,Nacimiento,Mujer,22
+Korella,McGlaughn,2010,35,Nacimiento,Mujer,17
+Kristyn,MacCrachen,2019,14,Nacimiento,Mujer,17
+Teresita,Poleye,2011,14,Aborto espontáneo,Mujer,21
+Rosemary,Handslip,2020,23,Interrupción,Mujer,3
+Jaquenette,Shuttlewood,2016,20,Nacimiento,Mujer,19
+Carolan,Rusted,2019,22,Aborto espontáneo,Mujer,10
+Latashia,Ginnally,2019,32,Aborto espontáneo,Mujer,5
+Adrianne,Dossantos,2011,23,Interrupción,Mujer,6
+Eugine,Osinin,2020,25,Nacimiento,Mujer,15
+Josi,Kupke,2023,22,Aborto espontáneo,Mujer,16
+Laurena,Doerren,2013,35,Aborto espontáneo,Mujer,21
+Birgitta,Creegan,2023,17,Interrupción,Mujer,21
+Ania,Bresman,2011,17,Aborto espontáneo,Mujer,22
+Elvera,Lanfer,2018,17,Interrupción,Mujer,22
+Katharyn,Peltzer,2015,23,Aborto espontáneo,Mujer,19
+Ruperta,Chamberlaine,2023,26,Interrupción,Mujer,17
+Petronille,Leaburn,2023,32,Nacimiento,Mujer,18
+Lesly,Benard,2023,30,Nacimiento,Mujer,6
+Danita,Costy,2020,26,Interrupción,Mujer,5
+Lilian,Donati,2019,17,Interrupción,Mujer,15
+Odella,Sturror,2015,27,Interrupción,Mujer,6
+Hope,Knolles-Green,2014,22,Interrupción,Mujer,2
+Angeline,Malinowski,2016,16,Interrupción,Mujer,19
+Gertie,Abrahamian,2011,25,Aborto espontáneo,Mujer,13
+Elsa,Caustick,2018,15,Interrupción,Mujer,15
+Lonna,Nesbeth,2015,25,Nacimiento,Mujer,5
+Bobine,Wildblood,2011,21,Aborto espontáneo,Mujer,6
+Carlin,Schowenburg,2015,22,Aborto espontáneo,Mujer,5
+Amber,Bugbird,2018,21,Nacimiento,Mujer,5
+Ana,Richly,2016,24,Interrupción,Mujer,13
+Philis,Stolberg,2011,22,Interrupción,Mujer,6
+Regan,Duddle,2022,35,Nacimiento,Mujer,6
+Korney,Sulman,2016,34,Aborto espontáneo,Mujer,4
+Felecia,Bromell,2020,14,Nacimiento,Mujer,4
+Alberta,Lanham,2018,25,Aborto espontáneo,Mujer,13
+Zena,Dews,2018,33,Nacimiento,Mujer,12
+Hildegarde,Surfleet,2017,35,Aborto espontáneo,Mujer,20
+Arluene,Proback,2021,27,Interrupción,Mujer,16
+Micheline,Tzuker,2020,32,Nacimiento,Mujer,9
+Mamie,Tellenbach,2019,15,Aborto espontáneo,Mujer,1
+Pegeen,Mulcock,2022,30,Interrupción,Mujer,14
+Lauretta,Sieghard,2013,25,Nacimiento,Mujer,20
+Ariel,Horley,2012,22,Nacimiento,Mujer,18
+Shirley,Sawood,2019,29,Interrupción,Mujer,8
+Berni,Kirley,2019,23,Interrupción,Mujer,14
+Domini,Hannaford,2017,33,Nacimiento,Mujer,10
+Philipa,Ilyas,2020,24,Aborto espontáneo,Mujer,15
+Whitney,Copes,2016,14,Aborto espontáneo,Mujer,14
+Kathryne,Goodlet,2023,26,Interrupción,Mujer,3
+Caralie,Laidel,2015,35,Interrupción,Mujer,3
+Berty,Whapple,2018,16,Interrupción,Mujer,2
+Janith,Kraft,2010,14,Aborto espontáneo,Mujer,16
+Linell,Vernazza,2012,32,Interrupción,Mujer,22
+Melamie,Sinson,2019,35,Aborto espontáneo,Mujer,14
+Mirella,D'Errico,2018,27,Interrupción,Mujer,19
+Jewell,Smowton,2013,26,Aborto espontáneo,Mujer,11
+Kara-lynn,Storie,2011,35,Nacimiento,Mujer,1
+Jennee,Ivoshin,2023,33,Nacimiento,Mujer,14
+Dacey,Lahiff,2022,30,Interrupción,Mujer,20
+Joanne,Huntriss,2011,20,Interrupción,Mujer,7
+Raeann,Shulver,2017,34,Nacimiento,Mujer,19
+Nichole,Vivash,2022,20,Aborto espontáneo,Mujer,2
+Bethany,Birkmyre,2010,15,Interrupción,Mujer,5
+Jillene,Creavan,2018,32,Interrupción,Mujer,5
+Winnie,Tanfield,2014,28,Interrupción,Mujer,6
+Ebba,Berrington,2021,25,Aborto espontáneo,Mujer,1
+Giulia,Douse,2017,26,Aborto espontáneo,Mujer,2
+Isadora,Rackham,2019,24,Interrupción,Mujer,13
+Wren,Ciciura,2016,34,Interrupción,Mujer,6
+Shel,Swarbrick,2011,16,Nacimiento,Mujer,16
+Daffi,Ayliffe,2021,25,Aborto espontáneo,Mujer,11
+Deena,Surtees,2016,27,Aborto espontáneo,Mujer,1
+Cherilynn,Canas,2017,17,Interrupción,Mujer,6
+Glenda,Fike,2020,15,Interrupción,Mujer,19
+Stacia,Crocombe,2015,15,Nacimiento,Mujer,3
+Francisca,Fallis,2022,35,Interrupción,Mujer,1
+Dotti,Patience,2016,15,Aborto espontáneo,Mujer,18
+Devan,Cullinane,2021,29,Aborto espontáneo,Mujer,20
+Betsey,Izat,2013,21,Nacimiento,Mujer,4
+Ina,Elstub,2019,26,Aborto espontáneo,Mujer,11
+Coral,Bruyett,2018,17,Aborto espontáneo,Mujer,8
+Sybila,Tarbert,2023,32,Nacimiento,Mujer,12
+Zonda,Franck,2014,17,Nacimiento,Mujer,18
+Thalia,Crathorne,2013,17,Interrupción,Mujer,9
+Joli,Chong,2018,31,Aborto espontáneo,Mujer,17
+Magdalene,Rosone,2018,26,Aborto espontáneo,Mujer,14
+Dyan,Giottini,2019,23,Interrupción,Mujer,13
+Emera,Lauritzen,2011,16,Aborto espontáneo,Mujer,19
+Gratiana,Redgrave,2021,19,Nacimiento,Mujer,1
+Barbey,Lindemann,2014,22,Aborto espontáneo,Mujer,12
+Oona,Clohisey,2010,27,Nacimiento,Mujer,5
+Dannie,Barmadier,2021,18,Nacimiento,Mujer,18
+Marja,Lygo,2023,31,Interrupción,Mujer,9
+Andi,Testin,2010,32,Interrupción,Mujer,9
+Theodosia,Bardwall,2015,20,Nacimiento,Mujer,19
+Zora,MacConnal,2018,35,Interrupción,Mujer,2
+Adara,Gaven,2023,14,Interrupción,Mujer,12
+Annie,Rathborne,2010,33,Interrupción,Mujer,3
+Doro,Beert,2014,29,Aborto espontáneo,Mujer,21
+Berri,Vanichev,2017,15,Aborto espontáneo,Mujer,7
+Ronica,Giacomucci,2020,27,Interrupción,Mujer,18
+Shelbi,Grimmolby,2014,26,Interrupción,Mujer,21
+Eugenia,Peeke-Vout,2015,16,Aborto espontáneo,Mujer,7
+Linn,Colafate,2017,19,Aborto espontáneo,Mujer,10
+Lissa,Kilgallen,2010,17,Nacimiento,Mujer,6
+Florette,Foulds,2014,35,Aborto espontáneo,Mujer,17
+Taryn,Stearns,2013,16,Interrupción,Mujer,19
+Fanchon,Habercham,2023,26,Aborto espontáneo,Mujer,14
+Whitney,Tomala,2012,25,Aborto espontáneo,Mujer,11
+Rosabella,Calwell,2013,24,Interrupción,Mujer,14
+Jolene,Flott,2010,32,Interrupción,Mujer,20
+Helena,Noyes,2015,18,Interrupción,Mujer,22
+Janaya,Lemmen,2015,20,Interrupción,Mujer,12
+Suzette,Dufton,2014,14,Interrupción,Mujer,20
+Kaila,Faltskog,2010,22,Aborto espontáneo,Mujer,17
+Issy,Berntssen,2011,24,Nacimiento,Mujer,13
+Natty,Cruttenden,2020,18,Nacimiento,Mujer,17
+Tobey,Tripett,2019,19,Aborto espontáneo,Mujer,18
+Lenette,Ethelston,2010,26,Interrupción,Mujer,11
+Viviana,MacDougall,2014,25,Nacimiento,Mujer,4
+Marissa,Kroll,2011,21,Nacimiento,Mujer,7
+Sharon,Helgass,2020,33,Nacimiento,Mujer,6
+Meghan,Pitkethly,2015,35,Aborto espontáneo,Mujer,22
+Jaquelyn,Zanutti,2023,28,Interrupción,Mujer,1
+Kathryn,Peirce,2014,16,Aborto espontáneo,Mujer,19
+Gratiana,Jendrach,2021,21,Nacimiento,Mujer,19
+Shandy,Gaffer,2014,23,Interrupción,Mujer,20
+Kessiah,Beadel,2017,30,Interrupción,Mujer,22
+Blythe,Shinn,2020,31,Aborto espontáneo,Mujer,2
+Marne,Risborough,2020,19,Nacimiento,Mujer,7
+Tamarah,Kosiada,2020,31,Interrupción,Mujer,22
+Codie,Batrop,2019,28,Interrupción,Mujer,18
+Regan,Rolf,2020,31,Nacimiento,Mujer,9
+Tressa,Wingfield,2016,23,Nacimiento,Mujer,18
+Casie,Loos,2014,23,Aborto espontáneo,Mujer,7
+Daniela,Smouten,2011,19,Interrupción,Mujer,14
+Janis,Leopold,2015,31,Aborto espontáneo,Mujer,20
+Eva,Fouracres,2017,31,Nacimiento,Mujer,1
+Rosabel,Sibun,2014,20,Nacimiento,Mujer,3
+Gratia,Jendrassik,2015,27,Interrupción,Mujer,7
+Donielle,Straker,2023,16,Nacimiento,Mujer,11
+Arda,Loughran,2012,32,Nacimiento,Mujer,16
+Jessica,Brodnecke,2022,23,Nacimiento,Mujer,15
+Ursala,Jefferys,2014,23,Nacimiento,Mujer,14
+Kerri,Esler,2020,18,Nacimiento,Mujer,3
+Bobbi,Koppel,2015,24,Interrupción,Mujer,9
+Daveen,Ties,2010,28,Interrupción,Mujer,21
+Selinda,Neeves,2011,29,Aborto espontáneo,Mujer,16
+Glori,Wilgar,2022,14,Nacimiento,Mujer,1
+Patrice,Martindale,2015,20,Interrupción,Mujer,12
+Nicki,McCaskill,2014,19,Aborto espontáneo,Mujer,12
+Gertrude,Swalough,2022,30,Aborto espontáneo,Mujer,22
+Sallyann,Culpin,2011,22,Nacimiento,Mujer,9
+Hyacinthia,Aitken,2015,33,Nacimiento,Mujer,15
+Bette,O'Grady,2020,19,Aborto espontáneo,Mujer,17
+Natalina,Warrilow,2016,19,Interrupción,Mujer,3
+Mab,Secret,2021,25,Nacimiento,Mujer,21
+Marquita,Lucien,2020,27,Interrupción,Mujer,5
+Shina,Root,2018,21,Nacimiento,Mujer,16
+Sheelagh,Boughton,2023,29,Nacimiento,Mujer,16
+Agnes,Kasbye,2018,29,Interrupción,Mujer,16
+Joby,Durward,2020,20,Aborto espontáneo,Mujer,9
+Vikki,Appleyard,2019,18,Aborto espontáneo,Mujer,15
+Edyth,Bromell,2012,34,Aborto espontáneo,Mujer,11
+Kathy,Kingswell,2016,25,Nacimiento,Mujer,6
+Suzette,Clulow,2012,24,Aborto espontáneo,Mujer,4
+Rafaela,Phonix,2012,27,Aborto espontáneo,Mujer,10
+Fredrika,Bamsey,2019,33,Nacimiento,Mujer,14
+Ethyl,Hallgate,2015,24,Aborto espontáneo,Mujer,3
+Willetta,Lincoln,2012,30,Aborto espontáneo,Mujer,21
+Arlina,Getty,2014,22,Nacimiento,Mujer,12
+Mariel,Huet,2012,14,Interrupción,Mujer,16
+Deny,Temporal,2010,14,Aborto espontáneo,Mujer,11
+Salomi,Shout,2016,22,Interrupción,Mujer,17
+Mehetabel,Fowgies,2023,33,Aborto espontáneo,Mujer,22
+Bertie,Leathers,2021,29,Aborto espontáneo,Mujer,1
+Fancy,Cogzell,2010,17,Interrupción,Mujer,17
+Birdie,Bullent,2014,15,Interrupción,Mujer,8
+Georgianna,Kleinplatz,2019,19,Aborto espontáneo,Mujer,6
+Olivie,Kibbye,2023,23,Aborto espontáneo,Mujer,13
+Janene,De la Barre,2012,25,Nacimiento,Mujer,6
+Eleanora,St Louis,2018,27,Interrupción,Mujer,19
+Odette,Culshew,2014,15,Nacimiento,Mujer,15
+Janeva,Endacott,2015,30,Nacimiento,Mujer,2
+Ella,Rowney,2023,35,Nacimiento,Mujer,11
+Jordain,Locker,2022,28,Aborto espontáneo,Mujer,13
+Josephina,Ritchie,2022,30,Nacimiento,Mujer,13
+Liliane,Yakebovitch,2016,21,Nacimiento,Mujer,2
+Layney,August,2011,29,Nacimiento,Mujer,9
+Darell,Fisbey,2018,32,Nacimiento,Mujer,5
+Hyacinthe,Hearon,2015,15,Nacimiento,Mujer,22
+Ynez,Libreros,2015,28,Nacimiento,Mujer,8
+Koressa,Pinson,2012,30,Interrupción,Mujer,13
+Mahala,Sandbach,2014,15,Nacimiento,Mujer,21
+Elke,Nealy,2012,30,Interrupción,Mujer,18
+Isobel,Boise,2020,29,Nacimiento,Mujer,8
+Kalinda,Gallaher,2015,22,Nacimiento,Mujer,15
+Zara,Glacken,2017,19,Aborto espontáneo,Mujer,4
+Helene,Scrivner,2019,32,Nacimiento,Mujer,7
+Paulette,Leneham,2013,14,Aborto espontáneo,Mujer,22
+Alma,Donaher,2016,26,Nacimiento,Mujer,22
+Sapphire,Seldner,2023,29,Interrupción,Mujer,16
+Marya,Tschursch,2014,20,Nacimiento,Mujer,13
+Marcelia,Treweke,2023,33,Nacimiento,Mujer,17
+Gloriana,Calfe,2011,26,Nacimiento,Mujer,22
+Hazel,Beardsell,2016,26,Nacimiento,Mujer,22
+Ardyth,Benduhn,2010,20,Aborto espontáneo,Mujer,10
+Ange,Nehls,2018,21,Interrupción,Mujer,6
+Sile,Stebles,2016,14,Interrupción,Mujer,3
+Consuela,Allmen,2013,15,Interrupción,Mujer,11
+Melanie,Piggin,2011,35,Aborto espontáneo,Mujer,5
+Evelina,Amesbury,2021,35,Nacimiento,Mujer,9
+Papagena,Ventura,2023,30,Nacimiento,Mujer,11
+Dorothea,Goldis,2023,28,Aborto espontáneo,Mujer,13
+Dulcia,Ladon,2013,35,Interrupción,Mujer,2
+Raychel,Stiddard,2021,14,Nacimiento,Mujer,5
+Carmela,Breakey,2020,29,Interrupción,Mujer,17
+Camille,McAleese,2023,19,Interrupción,Mujer,20
+Luelle,Offner,2022,19,Aborto espontáneo,Mujer,11
+Liz,Budibent,2018,17,Interrupción,Mujer,13
+Tybie,Kelson,2017,28,Nacimiento,Mujer,9
+Wilmette,Palffrey,2014,33,Interrupción,Mujer,20
+Luisa,Epperson,2020,25,Nacimiento,Mujer,1
+Adora,Annetts,2019,34,Nacimiento,Mujer,7
+Miran,Veschambre,2020,35,Nacimiento,Mujer,3
+Danna,Godsal,2010,21,Aborto espontáneo,Mujer,8
+Tildie,Plowes,2020,23,Nacimiento,Mujer,14
+Zarla,Stutely,2021,16,Nacimiento,Mujer,5
+Carilyn,Errichi,2011,34,Nacimiento,Mujer,16
+Florie,Seabrocke,2018,33,Interrupción,Mujer,9
+Lesley,Thurgood,2017,31,Aborto espontáneo,Mujer,4
+Celine,Toderbrugge,2010,25,Nacimiento,Mujer,6
+Ophelie,Bertot,2015,25,Interrupción,Mujer,2
+Deidre,Gibbonson,2017,22,Nacimiento,Mujer,22
+Devondra,Bengochea,2022,21,Aborto espontáneo,Mujer,22
+Madelyn,Piddington,2011,28,Interrupción,Mujer,7
+Kelly,Caville,2011,30,Interrupción,Mujer,7
+Adrianne,Croutear,2013,14,Interrupción,Mujer,20
+Katherine,Scawton,2021,15,Nacimiento,Mujer,13
+Fionna,Brindle,2015,15,Aborto espontáneo,Mujer,15
+Elise,Pendrick,2020,23,Interrupción,Mujer,9
+Trenna,Le Moucheux,2015,34,Nacimiento,Mujer,15
+Cookie,Stallworthy,2017,29,Nacimiento,Mujer,11
+Angelle,Coney,2019,21,Interrupción,Mujer,8
+Caprice,Dobie,2023,33,Interrupción,Mujer,12
+Anna-maria,Milton-White,2015,28,Aborto espontáneo,Mujer,12
+Etty,Devon,2012,17,Nacimiento,Mujer,16
+Dasha,Curtois,2015,31,Interrupción,Mujer,11
+Tony,Matthewson,2016,21,Aborto espontáneo,Mujer,1
+Jena,Walasik,2012,34,Interrupción,Mujer,8
+Zondra,Cumberland,2018,22,Aborto espontáneo,Mujer,8
+Phillida,MacKeller,2015,30,Interrupción,Mujer,6
+Britte,Sydall,2021,33,Nacimiento,Mujer,3
+Pierette,Checcucci,2010,31,Aborto espontáneo,Mujer,1
+Jody,Paskell,2021,31,Aborto espontáneo,Mujer,7
+Fedora,Arnauduc,2015,19,Aborto espontáneo,Mujer,6
+Aurelea,Garthside,2010,27,Nacimiento,Mujer,4
+Hyacintha,Kenlin,2021,19,Interrupción,Mujer,20
+Emalia,Sprade,2019,31,Aborto espontáneo,Mujer,15
+Rayshell,Deniskevich,2013,14,Interrupción,Mujer,17
+Fredrika,Linsey,2019,15,Interrupción,Mujer,2
+Katherine,Leet,2019,28,Nacimiento,Mujer,4
+Addia,Shewring,2010,18,Nacimiento,Mujer,10
+Talia,Le Noir,2017,16,Nacimiento,Mujer,14
+Marieann,Gerhold,2019,30,Nacimiento,Mujer,11
+Kameko,Vine,2018,15,Nacimiento,Mujer,13
+Addy,Dobbs,2014,31,Interrupción,Mujer,6
+Van,Wingrove,2019,19,Aborto espontáneo,Mujer,14
+Ola,Salmond,2014,30,Interrupción,Mujer,1
+Vinni,Gaw,2015,27,Nacimiento,Mujer,7
+Danyelle,Estick,2013,35,Aborto espontáneo,Mujer,22
+Janetta,Williamson,2021,24,Aborto espontáneo,Mujer,21
+Barbie,Hlavac,2023,24,Aborto espontáneo,Mujer,20
+Brinn,Teanby,2017,18,Aborto espontáneo,Mujer,7
+Erina,Faircliffe,2019,17,Interrupción,Mujer,19
+Marnia,Shardlow,2020,20,Interrupción,Mujer,1
+Sheila,Laviste,2014,20,Aborto espontáneo,Mujer,12
+Kellen,Wastell,2022,16,Nacimiento,Mujer,11
+Della,Grimestone,2020,27,Interrupción,Mujer,11
+Hannis,Grayston,2021,27,Aborto espontáneo,Mujer,10
+Naomi,Drakard,2017,25,Aborto espontáneo,Mujer,16
+Linnet,Hollyland,2020,15,Aborto espontáneo,Mujer,4
+Mable,Jancic,2021,15,Interrupción,Mujer,9
+Maridel,Sieve,2016,21,Aborto espontáneo,Mujer,16
+May,Haps,2011,28,Interrupción,Mujer,12
+Trisha,Bambery,2021,32,Interrupción,Mujer,11
+Moina,Synan,2020,14,Aborto espontáneo,Mujer,12
+Bennie,Melior,2017,26,Nacimiento,Mujer,22
+Valerye,Bradden,2023,14,Nacimiento,Mujer,21
+Jacqui,Flaherty,2013,30,Interrupción,Mujer,21
+Jillane,Silber,2022,19,Aborto espontáneo,Mujer,14
+Kathe,Dales,2011,26,Nacimiento,Mujer,4
+Mara,Shevell,2014,34,Nacimiento,Mujer,19
+Minerva,Manson,2012,22,Aborto espontáneo,Mujer,15
+Jami,Blackford,2022,18,Aborto espontáneo,Mujer,22
+Ashia,Cutler,2011,21,Aborto espontáneo,Mujer,9
+Jennette,Bosson,2014,16,Aborto espontáneo,Mujer,17
+Abigail,Vasse,2021,27,Aborto espontáneo,Mujer,12
+Cassaundra,Peal,2019,16,Interrupción,Mujer,8
+Giuditta,Diver,2012,27,Interrupción,Mujer,19
+Nancee,Ripping,2021,33,Interrupción,Mujer,2
+Kipp,McCuaig,2012,15,Nacimiento,Mujer,4
+Elysee,Steers,2017,16,Interrupción,Mujer,20
+Aeriel,Deeks,2016,24,Interrupción,Mujer,1
+Kass,Tumber,2021,14,Aborto espontáneo,Mujer,8
+Katti,Vedikhov,2019,16,Interrupción,Mujer,22
+Adaline,Blomfield,2013,24,Interrupción,Mujer,22
+Freda,Durdy,2016,20,Aborto espontáneo,Mujer,16
+Legra,McIlroy,2018,34,Aborto espontáneo,Mujer,1
+Christye,Minci,2020,28,Interrupción,Mujer,6
+Audrye,Brimble,2012,15,Aborto espontáneo,Mujer,3
+Tatiana,Oager,2016,23,Interrupción,Mujer,9
+Ekaterina,Nassi,2011,14,Interrupción,Mujer,16
+Esmeralda,Aspey,2020,16,Nacimiento,Mujer,13
+Jackelyn,Ferraro,2014,19,Aborto espontáneo,Mujer,15
+Annmarie,Rosthorn,2013,34,Nacimiento,Mujer,20
+Abigale,McAlester,2019,30,Aborto espontáneo,Mujer,21
+Leesa,Cahn,2013,33,Nacimiento,Mujer,13
+Rodi,Adshead,2019,25,Nacimiento,Mujer,19
+Bunnie,O'Mullaney,2022,16,Aborto espontáneo,Mujer,22
+Aveline,Floris,2017,14,Nacimiento,Mujer,14
+Jeannie,Cowl,2016,23,Interrupción,Mujer,4
+Malinde,Burburough,2016,35,Nacimiento,Mujer,15
+Cathyleen,Motten,2016,16,Nacimiento,Mujer,1
+Kaye,Turgoose,2010,21,Nacimiento,Mujer,15
+Vyky,Penas,2015,14,Interrupción,Mujer,19
+Amalee,Andover,2013,19,Interrupción,Mujer,17
+Pietra,Confait,2016,35,Nacimiento,Mujer,7
+Faustina,MacMeeking,2020,27,Interrupción,Mujer,4
+Jennine,Pearman,2014,15,Aborto espontáneo,Mujer,21
+Roselle,Gain,2014,30,Nacimiento,Mujer,17
+Elsy,Martellini,2019,24,Interrupción,Mujer,12
+Nicolle,Minty,2020,28,Aborto espontáneo,Mujer,3
+Dotti,Caldayrou,2020,22,Nacimiento,Mujer,20
+Alma,Lisamore,2019,17,Interrupción,Mujer,11
+Crissy,Bensen,2015,26,Nacimiento,Mujer,9
+Dina,Grigorio,2021,18,Nacimiento,Mujer,16
+Valenka,Peacher,2022,18,Interrupción,Mujer,13
+Lotti,Vannuccini,2011,16,Aborto espontáneo,Mujer,22
+Melli,Dahler,2017,17,Aborto espontáneo,Mujer,3
+Tessy,Spellicy,2011,24,Interrupción,Mujer,8
+Carmela,Pervoe,2013,23,Nacimiento,Mujer,3
+Jewelle,Grogono,2019,29,Interrupción,Mujer,3
+Ursula,Laing,2018,33,Nacimiento,Mujer,1
+Erena,Kidsley,2015,14,Aborto espontáneo,Mujer,18
+Corina,Gamlyn,2019,18,Aborto espontáneo,Mujer,19
+Crin,Mountcastle,2013,26,Interrupción,Mujer,9
+Ezmeralda,Prior,2011,26,Interrupción,Mujer,20
+Gilberte,Hirsthouse,2016,21,Aborto espontáneo,Mujer,6
+Clementina,Merner,2013,25,Aborto espontáneo,Mujer,2
+Kimberley,Pughe,2011,21,Aborto espontáneo,Mujer,5
+Leshia,Linfitt,2017,25,Nacimiento,Mujer,13
+Suzi,Baelde,2017,18,Interrupción,Mujer,13
+Dory,Binham,2012,20,Nacimiento,Mujer,8
+Tommy,Sackler,2015,32,Interrupción,Mujer,13
+Carlita,Hawton,2016,27,Interrupción,Mujer,3
+Thomasin,Woollcott,2018,25,Nacimiento,Mujer,13
+Cyndia,Estable,2023,34,Nacimiento,Mujer,16
+Frieda,Clunie,2023,24,Interrupción,Mujer,21
+Jeanette,Tuminini,2017,33,Aborto espontáneo,Mujer,18
+Charmain,Shillabeer,2018,26,Nacimiento,Mujer,5
+Leila,Zima,2011,18,Interrupción,Mujer,16
+Amalita,Klishin,2018,32,Interrupción,Mujer,13
+Willyt,Blaydon,2016,31,Aborto espontáneo,Mujer,7
+Almeria,Pitbladdo,2015,29,Nacimiento,Mujer,3
+Aeriel,Keaves,2019,26,Nacimiento,Mujer,9
+Hayley,Radnedge,2023,35,Nacimiento,Mujer,8
+Desirae,Currington,2015,18,Nacimiento,Mujer,20
+Bree,Whetnall,2012,24,Nacimiento,Mujer,21
+Minetta,Cordey,2020,34,Nacimiento,Mujer,17
+Jacinta,McNabb,2012,15,Nacimiento,Mujer,11
+Willa,McKendry,2019,31,Interrupción,Mujer,3
+Tommi,Dowears,2017,35,Interrupción,Mujer,9
+Madge,Crab,2014,18,Interrupción,Mujer,12
+Gabi,Joye,2021,31,Aborto espontáneo,Mujer,18
+Allyson,Mortlock,2023,33,Nacimiento,Mujer,15
+Penelope,Gofton,2015,25,Nacimiento,Mujer,8
+Carmon,Bruniges,2021,34,Interrupción,Mujer,13
+Camilla,Elphinstone,2023,20,Interrupción,Mujer,15
+Vikki,Scamaden,2015,27,Aborto espontáneo,Mujer,22
+Dalila,Banister,2021,20,Interrupción,Mujer,22
+Laurene,Sikorski,2023,21,Aborto espontáneo,Mujer,3
+Kizzee,Willoughby,2015,14,Interrupción,Mujer,9
+Mada,Nisot,2019,17,Interrupción,Mujer,11
+Filide,Benbow,2020,33,Aborto espontáneo,Mujer,15
+Taffy,Gummow,2023,27,Aborto espontáneo,Mujer,22
+Sibeal,Geockle,2011,35,Nacimiento,Mujer,6
+Camila,Snoxell,2020,30,Aborto espontáneo,Mujer,11
+Aila,Sterndale,2018,26,Nacimiento,Mujer,9
+Daria,Raynes,2011,17,Nacimiento,Mujer,7
+Freddie,Claricoates,2023,29,Interrupción,Mujer,10
+Amelie,Perazzo,2010,19,Interrupción,Mujer,6
+Georgia,Marrows,2012,26,Aborto espontáneo,Mujer,12
+Michaelina,Olivey,2010,29,Interrupción,Mujer,13
+Laural,Dobing,2015,14,Interrupción,Mujer,22
+Florence,Elias,2023,24,Interrupción,Mujer,1
+Fina,Chese,2014,17,Interrupción,Mujer,13
+Karee,Timberlake,2010,17,Interrupción,Mujer,14
+Eleen,Josum,2014,33,Interrupción,Mujer,17
+Quentin,Metzke,2017,27,Interrupción,Mujer,10
+Ninnette,Vedmore,2019,28,Nacimiento,Mujer,12
+Rayshell,Beven,2011,30,Interrupción,Mujer,17
+Gisela,Bennington,2011,27,Aborto espontáneo,Mujer,8
+Cacilie,O'Fergus,2014,18,Interrupción,Mujer,3
+Aleece,Brittin,2010,16,Nacimiento,Mujer,18
+Eleen,Phillis,2022,29,Interrupción,Mujer,20
+Auria,De Atta,2013,23,Interrupción,Mujer,17
+Hally,Phateplace,2014,29,Aborto espontáneo,Mujer,17
+Ailyn,Wahlberg,2013,17,Aborto espontáneo,Mujer,16
+Teddie,Munnis,2015,24,Interrupción,Mujer,2
+Deonne,Fripps,2013,16,Nacimiento,Mujer,7
+Danila,Menham,2018,26,Nacimiento,Mujer,3
+Devan,Cristobal,2016,29,Aborto espontáneo,Mujer,8
+Tani,Rollo,2013,19,Nacimiento,Mujer,5
+Renelle,Mycock,2016,34,Aborto espontáneo,Mujer,16
+Goldie,Vater,2018,25,Interrupción,Mujer,2
+Murial,McShee,2020,26,Nacimiento,Mujer,15
+Bethanne,Golling,2012,14,Nacimiento,Mujer,2
+Charmine,Foister,2016,14,Interrupción,Mujer,1
+Eugenie,Kalf,2014,17,Interrupción,Mujer,21
+Jewell,MacEntee,2016,18,Nacimiento,Mujer,20
+Valma,Dulake,2013,22,Interrupción,Mujer,16
+Nessa,Naismith,2017,14,Nacimiento,Mujer,3
+Meggy,Grier,2018,17,Aborto espontáneo,Mujer,5
+Celesta,Nother,2014,34,Nacimiento,Mujer,15
+Adria,Gahagan,2019,28,Interrupción,Mujer,15
+Klarika,Flori,2023,35,Nacimiento,Mujer,3
+Erika,Ebanks,2016,30,Aborto espontáneo,Mujer,14
+Vita,Ilem,2015,32,Aborto espontáneo,Mujer,3
+Elnore,Hull,2010,14,Interrupción,Mujer,20
+Holly-anne,Yarmouth,2017,18,Interrupción,Mujer,20
+Krissy,Dumphries,2010,23,Nacimiento,Mujer,9
+Regina,Petlyura,2016,34,Nacimiento,Mujer,16
+Arlyn,Swanne,2012,21,Nacimiento,Mujer,19
+Athena,Burhill,2010,33,Interrupción,Mujer,21
+Keriann,Wycliff,2013,19,Interrupción,Mujer,15
+Anastasia,Quilligan,2016,14,Aborto espontáneo,Mujer,4
+Cesya,Habbert,2010,16,Interrupción,Mujer,13
+Alidia,Coultas,2012,16,Nacimiento,Mujer,17
+Cloe,Van der Krui,2012,28,Aborto espontáneo,Mujer,5
+Biddy,Gwinnett,2020,22,Interrupción,Mujer,5
+Andra,Maken,2010,18,Aborto espontáneo,Mujer,1
+Lona,Isacke,2014,15,Aborto espontáneo,Mujer,21
+Corabella,Rafferty,2015,29,Nacimiento,Mujer,22
+Pierrette,Langrish,2015,28,Nacimiento,Mujer,14
+Bird,Garcia,2014,34,Nacimiento,Mujer,11
+Maria,Bigrigg,2015,16,Aborto espontáneo,Mujer,16
+Jeannette,Jessup,2023,31,Aborto espontáneo,Mujer,11
+Jorrie,Bonner,2019,21,Aborto espontáneo,Mujer,11
+Maye,Bazoche,2023,34,Nacimiento,Mujer,16
+Mabelle,Trickett,2014,32,Nacimiento,Mujer,6
+Emmalee,Mergue,2022,15,Nacimiento,Mujer,14
+Leann,Wales,2010,24,Aborto espontáneo,Mujer,16
+Lisetta,Bramah,2022,16,Nacimiento,Mujer,16
+Caressa,Fransman,2014,17,Aborto espontáneo,Mujer,2
+Vanny,MacPharlain,2020,14,Nacimiento,Mujer,21
+Manon,Morpeth,2018,26,Aborto espontáneo,Mujer,21
+Tori,Ziemsen,2010,31,Aborto espontáneo,Mujer,7
+Lotta,Pattisson,2013,26,Nacimiento,Mujer,13
+Wanids,MacIlriach,2014,35,Interrupción,Mujer,18
+Florencia,Hamlett,2016,17,Interrupción,Mujer,18
+Almeta,Yell,2012,14,Interrupción,Mujer,12
+Conny,Goodson,2017,16,Aborto espontáneo,Mujer,11
+Pauletta,Blackah,2013,15,Aborto espontáneo,Mujer,6
+Harmonia,Niezen,2021,28,Nacimiento,Mujer,15
+Magdalen,Likely,2010,18,Interrupción,Mujer,1
+Goldie,Olijve,2016,34,Nacimiento,Mujer,14
+Sharleen,Acland,2020,29,Nacimiento,Mujer,2
+Gavra,Longhurst,2016,16,Interrupción,Mujer,18
+Almire,Willacot,2022,16,Nacimiento,Mujer,4
+Ingaberg,Donneely,2022,24,Aborto espontáneo,Mujer,11
+Kamillah,Butterfill,2012,32,Aborto espontáneo,Mujer,5
+Cherish,Gotling,2022,17,Aborto espontáneo,Mujer,5
+Lacee,Lynett,2019,33,Aborto espontáneo,Mujer,8
+Katti,Brimm,2019,17,Interrupción,Mujer,1
+Meris,Gason,2014,22,Interrupción,Mujer,20
+Zita,Pyke,2019,27,Interrupción,Mujer,19
+Hildagarde,Wathall,2012,28,Interrupción,Mujer,5
+Gale,Ivshin,2013,32,Nacimiento,Mujer,5
+Gracie,Abrahams,2023,15,Nacimiento,Mujer,11
+Jodee,Gold,2017,30,Nacimiento,Mujer,21
+Madelina,Lymer,2011,35,Aborto espontáneo,Mujer,13
+Carita,Bernollet,2016,21,Interrupción,Mujer,21
+Christiane,Harmer,2023,27,Nacimiento,Mujer,5
+Ingeborg,Massingham,2021,26,Nacimiento,Mujer,15
+Ros,Duling,2023,34,Interrupción,Mujer,20
+Adelaide,Howgill,2020,22,Aborto espontáneo,Mujer,21
+Eran,Clowsley,2010,19,Aborto espontáneo,Mujer,14
+Tally,Parham,2019,29,Nacimiento,Mujer,15
+Maxi,Pownall,2014,24,Aborto espontáneo,Mujer,7
+Eunice,Tofpik,2011,14,Aborto espontáneo,Mujer,11
+Blondell,Mcall,2011,15,Interrupción,Mujer,13
+Hannis,Giacomazzo,2021,31,Nacimiento,Mujer,12
+Zahara,Eyckel,2012,27,Interrupción,Mujer,18
+Celine,Darrigoe,2016,25,Interrupción,Mujer,15
+Emilie,Joutapavicius,2016,29,Nacimiento,Mujer,19
+Dolli,Donaway,2020,33,Aborto espontáneo,Mujer,11
+Meara,Moreby,2019,20,Nacimiento,Mujer,18
+Elmira,Lohrensen,2010,31,Interrupción,Mujer,7
+Karol,Bartell,2018,16,Aborto espontáneo,Mujer,10
+Laurel,Barnwall,2011,28,Aborto espontáneo,Mujer,18
+Kay,Guirau,2020,20,Nacimiento,Mujer,4
+Winnifred,Bodycote,2012,33,Nacimiento,Mujer,18
+Morgen,Dallas,2023,26,Aborto espontáneo,Mujer,4
+Shanta,Mucillo,2017,32,Aborto espontáneo,Mujer,9
+Renelle,Baum,2011,20,Aborto espontáneo,Mujer,17
+Janet,Tabour,2017,26,Aborto espontáneo,Mujer,5
+Janine,Kenrat,2019,22,Nacimiento,Mujer,16
+Elisa,Paulus,2021,24,Nacimiento,Mujer,18
+Edy,Harragin,2020,30,Interrupción,Mujer,19
+Bea,Bon,2018,16,Aborto espontáneo,Mujer,19
+Corinne,Elton,2019,16,Interrupción,Mujer,16
+Othelia,Farnorth,2018,24,Interrupción,Mujer,13
+Sean,Boch,2019,34,Interrupción,Mujer,1
+Adrea,Gofforth,2017,25,Nacimiento,Mujer,16
+Corrine,Rummings,2023,32,Aborto espontáneo,Mujer,5
+Angel,Few,2012,20,Aborto espontáneo,Mujer,12
+Sukey,Osgood,2019,34,Nacimiento,Mujer,15
+Adrienne,Farren,2022,21,Aborto espontáneo,Mujer,10
+Dulcia,Walling,2010,14,Nacimiento,Mujer,1
+Gena,Villar,2016,28,Nacimiento,Mujer,12
+Flss,Ceney,2022,17,Aborto espontáneo,Mujer,3
+Celestina,Bradock,2012,14,Aborto espontáneo,Mujer,21
+Annadiane,Hobben,2018,33,Aborto espontáneo,Mujer,2
+Thia,Birbeck,2012,26,Interrupción,Mujer,21
+Andeee,Gruszczak,2021,14,Aborto espontáneo,Mujer,5
+Keri,Camerello,2016,19,Aborto espontáneo,Mujer,21
+Elyssa,Densham,2013,34,Nacimiento,Mujer,8
+Leoline,Berends,2022,27,Interrupción,Mujer,19
+Myra,Linbohm,2012,23,Nacimiento,Mujer,21
+Rosanna,Everwin,2020,20,Aborto espontáneo,Mujer,7
+Meg,Higginbottam,2010,33,Nacimiento,Mujer,2
+Kaylee,Holbury,2017,15,Nacimiento,Mujer,21
+Franny,Janusik,2014,26,Aborto espontáneo,Mujer,1
+Farrand,Boorne,2022,19,Aborto espontáneo,Mujer,9
+Randee,Sandercock,2015,19,Aborto espontáneo,Mujer,17
+Sharona,McGookin,2016,26,Interrupción,Mujer,21
+Estel,Mangeney,2020,25,Aborto espontáneo,Mujer,14
+Elisabet,Bantick,2020,33,Interrupción,Mujer,1
+Adrianna,Harcourt,2017,18,Interrupción,Mujer,15
+Roana,Harmes,2011,30,Aborto espontáneo,Mujer,19
+Lucinda,Cattermull,2012,35,Interrupción,Mujer,2
+Kay,Titta,2019,18,Aborto espontáneo,Mujer,3
+Nalani,Islip,2019,23,Interrupción,Mujer,15
+Aurora,Purchon,2016,25,Interrupción,Mujer,5
+Gayle,Gilhouley,2011,25,Interrupción,Mujer,17
+Ardene,Winslett,2013,22,Aborto espontáneo,Mujer,21
+Anna-maria,Domange,2023,21,Nacimiento,Mujer,20
+Gui,Gothliff,2023,25,Interrupción,Mujer,3
+Yvette,Bahike,2017,24,Aborto espontáneo,Mujer,14
+Jodie,Buckam,2020,16,Interrupción,Mujer,19
+Bonny,Houchen,2018,16,Nacimiento,Mujer,20
+Carolina,Poacher,2022,20,Interrupción,Mujer,9
+Kathleen,Alessandretti,2010,16,Interrupción,Mujer,20
+Gael,Bianco,2011,22,Aborto espontáneo,Mujer,8
+Jemmy,Currie,2018,14,Aborto espontáneo,Mujer,18
+Perl,Ege,2021,35,Aborto espontáneo,Mujer,9
+Lezlie,Walshe,2015,21,Nacimiento,Mujer,1
+Emalee,Henriksson,2010,14,Nacimiento,Mujer,8
+Mikaela,Butson,2022,16,Nacimiento,Mujer,21
+Eve,Cardew,2012,23,Nacimiento,Mujer,4
+Bunni,Tuffin,2016,23,Interrupción,Mujer,5
+Myriam,Youngman,2016,14,Nacimiento,Mujer,16
+Annaliese,Scally,2023,14,Aborto espontáneo,Mujer,20
+Marin,Kimmerling,2020,20,Interrupción,Mujer,9
+Jemmie,Audus,2015,20,Aborto espontáneo,Mujer,9
+Beverly,Sisley,2023,27,Interrupción,Mujer,3
+Tammie,Aizkovitch,2020,31,Interrupción,Mujer,1
+Anabel,Woodings,2018,14,Interrupción,Mujer,14
+Violetta,Prettjohn,2013,22,Aborto espontáneo,Mujer,13
+Bettina,Ratnage,2011,16,Interrupción,Mujer,13
+Tarra,McElvine,2021,32,Interrupción,Mujer,13
+Lelah,Blackden,2018,14,Interrupción,Mujer,17
+Guglielma,Baish,2015,27,Aborto espontáneo,Mujer,22
+Andromache,Palley,2017,19,Aborto espontáneo,Mujer,5
+Licha,Hunting,2020,27,Interrupción,Mujer,17
+Willie,Breakspear,2018,19,Nacimiento,Mujer,8
+Lorena,Lohoar,2010,25,Nacimiento,Mujer,22
+Carlen,Spancock,2014,19,Interrupción,Mujer,11
+Eada,Edlin,2014,24,Aborto espontáneo,Mujer,13
+Ofella,Sarginson,2012,18,Interrupción,Mujer,19
+Agace,Stickney,2022,14,Aborto espontáneo,Mujer,3
+Pearle,Clacey,2019,15,Aborto espontáneo,Mujer,5
+Marcelle,Albiston,2022,21,Aborto espontáneo,Mujer,22
+Karin,Rush,2013,22,Nacimiento,Mujer,15
+Juli,Dalla,2022,20,Nacimiento,Mujer,12
+Bab,Bruster,2021,17,Aborto espontáneo,Mujer,4
+Marieann,Gilstin,2011,33,Interrupción,Mujer,4
+Gaynor,Gowenlock,2010,16,Interrupción,Mujer,5
+Modestia,Lockwood,2018,25,Nacimiento,Mujer,16
+Mariele,Josovitz,2021,26,Interrupción,Mujer,16
+Selena,Merit,2019,14,Nacimiento,Mujer,3
+Stormi,Freda,2011,16,Nacimiento,Mujer,9
+Marnie,Wein,2015,19,Interrupción,Mujer,15
+Annabelle,Worsham,2010,22,Nacimiento,Mujer,15
+Rozanne,Botley,2019,20,Aborto espontáneo,Mujer,14
+Donnamarie,Ewbanks,2021,30,Aborto espontáneo,Mujer,17
+Blondell,Sieur,2011,18,Nacimiento,Mujer,13
+Amy,Marconi,2020,29,Interrupción,Mujer,16
+Antonie,Bramont,2022,15,Aborto espontáneo,Mujer,15
+Iseabal,Towersey,2012,31,Interrupción,Mujer,21
+Jacenta,Leynham,2011,23,Interrupción,Mujer,14
+Cathrin,Filliskirk,2013,15,Aborto espontáneo,Mujer,15
+Carmencita,McCard,2015,29,Aborto espontáneo,Mujer,4
+Corrine,Prophet,2014,26,Aborto espontáneo,Mujer,1
+Sibel,Whitticks,2014,20,Nacimiento,Mujer,5
+Catherin,Sambedge,2019,23,Aborto espontáneo,Mujer,21
+Pearla,Akam,2016,32,Aborto espontáneo,Mujer,7
+Caty,Willock,2013,32,Interrupción,Mujer,11
+Saidee,Maneylaws,2019,24,Interrupción,Mujer,6
+Guendolen,Charlewood,2013,25,Aborto espontáneo,Mujer,22
+Ayn,Venn,2014,28,Aborto espontáneo,Mujer,5
+Layne,Fall,2010,17,Interrupción,Mujer,13
+Maribelle,Blaik,2022,27,Nacimiento,Mujer,21
+Lucinda,Lermouth,2011,34,Aborto espontáneo,Mujer,22
+Sapphira,Bullick,2015,23,Interrupción,Mujer,12
+Andriette,Brigman,2019,30,Aborto espontáneo,Mujer,4
+Emmey,Isakovic,2020,18,Aborto espontáneo,Mujer,7
+Fayre,Bloom,2016,31,Nacimiento,Mujer,8
+Idalina,Mazin,2021,22,Aborto espontáneo,Mujer,4
+Philis,Bidmead,2014,18,Aborto espontáneo,Mujer,1
+Marta,Maasz,2010,25,Aborto espontáneo,Mujer,10
+Shantee,Issit,2017,35,Aborto espontáneo,Mujer,5
+Willette,Tures,2015,35,Interrupción,Mujer,20
+Lonna,Cacacie,2013,21,Nacimiento,Mujer,6
+Shaun,Lovstrom,2023,22,Interrupción,Mujer,17
+Myrlene,Van Daalen,2019,34,Nacimiento,Mujer,10
+Allie,Peachman,2017,30,Interrupción,Mujer,3
+Tony,Kaesmans,2023,35,Interrupción,Mujer,1
+Anett,Pridding,2021,18,Aborto espontáneo,Mujer,19
+Mavis,Sharply,2012,28,Nacimiento,Mujer,11
+Misty,Pellew,2010,24,Interrupción,Mujer,3
+Gilbertine,Deverill,2013,22,Aborto espontáneo,Mujer,18
+Yelena,Calbert,2011,33,Aborto espontáneo,Mujer,2
+Malvina,Kelf,2015,17,Nacimiento,Mujer,17
+Gisele,Regenhardt,2014,32,Aborto espontáneo,Mujer,1
+Milissent,Stotherfield,2016,29,Nacimiento,Mujer,22
+Lyn,Cuttle,2012,26,Interrupción,Mujer,22
+Nathalia,Goldring,2019,25,Interrupción,Mujer,17
+Georgeta,Pymm,2015,20,Nacimiento,Mujer,18
+Rhianon,Steed,2012,34,Interrupción,Mujer,15
+Pru,Samson,2012,30,Nacimiento,Mujer,7
+Idalina,Gaitung,2014,15,Aborto espontáneo,Mujer,7
+Cassandre,Cokly,2015,28,Nacimiento,Mujer,4
+Filippa,Ousby,2016,28,Nacimiento,Mujer,17
+Cybil,Pinckney,2018,32,Aborto espontáneo,Mujer,21
+Aurlie,Mabon,2012,17,Interrupción,Mujer,14
+Katinka,Zmitruk,2013,34,Nacimiento,Mujer,2
+Ashia,Janks,2020,34,Interrupción,Mujer,6
+Chloette,Begwell,2016,23,Nacimiento,Mujer,12
+Melisa,Sarfas,2021,22,Nacimiento,Mujer,2
+Gussie,MacKibbon,2011,25,Nacimiento,Mujer,1
+Jemmie,Bedbrough,2023,24,Interrupción,Mujer,13
+Ursola,Prozescky,2019,31,Aborto espontáneo,Mujer,16
+Candida,De Biasi,2018,14,Aborto espontáneo,Mujer,18
+Alleen,Smullen,2018,35,Nacimiento,Mujer,10
+Addy,Berthomieu,2018,20,Nacimiento,Mujer,19
+De,Toma,2010,20,Aborto espontáneo,Mujer,1
+Tory,MacVanamy,2018,29,Aborto espontáneo,Mujer,5
+Kriste,Goodfellowe,2016,27,Interrupción,Mujer,18
+Jayne,O'Scandall,2021,18,Interrupción,Mujer,21
+Laurene,Reede,2021,19,Aborto espontáneo,Mujer,20
+Irma,Rushman,2017,30,Aborto espontáneo,Mujer,4
+Bobbette,Fookes,2019,30,Nacimiento,Mujer,3
+Carina,Davydoch,2022,15,Nacimiento,Mujer,16
+Jorey,McCart,2023,19,Interrupción,Mujer,9
+Gwenore,Helgass,2010,19,Interrupción,Mujer,13
+Christian,Whybrow,2014,20,Nacimiento,Mujer,11
+Liz,Ohrtmann,2012,23,Aborto espontáneo,Mujer,6
+Malanie,Gavrieli,2018,32,Aborto espontáneo,Mujer,22
+Maressa,Peller,2011,15,Nacimiento,Mujer,20
+Sherilyn,Itzkov,2015,16,Nacimiento,Mujer,6
+Henrieta,Bulfit,2019,26,Aborto espontáneo,Mujer,14
+Beitris,Petkov,2011,22,Aborto espontáneo,Mujer,13
+Madelaine,Crooks,2021,34,Aborto espontáneo,Mujer,13
+Rafaelita,Brosel,2017,21,Nacimiento,Mujer,15
+Carol,Sermin,2016,20,Aborto espontáneo,Mujer,2
+Gwenora,Margiotta,2020,27,Aborto espontáneo,Mujer,20
+Else,Rae,2017,16,Nacimiento,Mujer,19
+Reiko,Tatton,2011,32,Nacimiento,Mujer,7
+Sherye,Cluelow,2014,18,Aborto espontáneo,Mujer,7
+Gussi,Cavnor,2023,31,Nacimiento,Mujer,13
+Carissa,Bedboro,2023,15,Interrupción,Mujer,16
+Jolee,Denkel,2021,35,Interrupción,Mujer,1
+Monah,Walwood,2021,29,Nacimiento,Mujer,13
+Miriam,De la Zenne,2014,25,Interrupción,Mujer,8
+Magdalena,Kubatsch,2010,21,Interrupción,Mujer,3
+Alisha,Coggen,2022,19,Aborto espontáneo,Mujer,20
+Gates,Twigger,2015,28,Aborto espontáneo,Mujer,6
+Dolley,Herreran,2010,35,Interrupción,Mujer,1
+Zelma,Sifflett,2019,24,Aborto espontáneo,Mujer,16
+Alma,Logie,2014,25,Aborto espontáneo,Mujer,10
+Faye,Brimming,2014,35,Interrupción,Mujer,19
+Danica,Pownall,2012,33,Aborto espontáneo,Mujer,7
+Korrie,Wildblood,2014,17,Nacimiento,Mujer,3
+Becka,Fincken,2012,31,Interrupción,Mujer,11
+Fiann,Coultar,2010,22,Nacimiento,Mujer,17
+Ros,Darmody,2020,31,Interrupción,Mujer,12
+Micheline,Fortun,2015,30,Aborto espontáneo,Mujer,17
+Ivett,Hamner,2011,25,Nacimiento,Mujer,18
+Rodie,Ridgeway,2016,30,Aborto espontáneo,Mujer,11
+Carmencita,Langer,2021,19,Nacimiento,Mujer,10
+Grethel,Driutti,2017,31,Aborto espontáneo,Mujer,5
+Jacky,Seers,2016,32,Interrupción,Mujer,22
+Phyllys,Spir,2020,23,Interrupción,Mujer,22
+Eddi,Batsford,2010,27,Aborto espontáneo,Mujer,10
+Galina,Pickton,2022,20,Nacimiento,Mujer,12
+Leslie,Desaur,2013,26,Aborto espontáneo,Mujer,16
+Elie,Wyer,2010,18,Aborto espontáneo,Mujer,9
+Myrle,McHardy,2016,29,Interrupción,Mujer,6
+Sofia,Beniesh,2016,23,Nacimiento,Mujer,4
+Gerrilee,Gear,2015,22,Interrupción,Mujer,12
+Jannel,Ollivierre,2014,23,Interrupción,Mujer,20
+Allegra,Cuer,2016,16,Nacimiento,Mujer,15
+Olia,Calderhead,2023,31,Nacimiento,Mujer,15
+Leena,Godsafe,2014,25,Interrupción,Mujer,19
+Britte,Hizir,2020,24,Nacimiento,Mujer,5
+Kathlin,Lintot,2018,28,Interrupción,Mujer,6
+Olivia,Pauletti,2018,29,Interrupción,Mujer,16
+Bettye,Leinweber,2018,32,Interrupción,Mujer,4
+Aleen,Frowde,2015,31,Interrupción,Mujer,2
+Jourdan,MacAlroy,2019,29,Aborto espontáneo,Mujer,7
+Fey,Goodluck,2020,14,Aborto espontáneo,Mujer,22
+Julienne,Sherwell,2011,15,Aborto espontáneo,Mujer,20
+Ginger,Glaisner,2013,22,Interrupción,Mujer,8
+Morgana,Redfearn,2023,27,Nacimiento,Mujer,13
+Callida,Skures,2013,22,Nacimiento,Mujer,18
+Neila,Delve,2011,23,Aborto espontáneo,Mujer,7
+Emlynne,Cramphorn,2014,22,Nacimiento,Mujer,1
+Issy,Vennart,2019,29,Aborto espontáneo,Mujer,4
+Cosette,MacGowing,2013,24,Aborto espontáneo,Mujer,3
+Cicely,Kroin,2016,14,Aborto espontáneo,Mujer,7
+Amabel,Dorkens,2017,33,Aborto espontáneo,Mujer,3
+Billie,Mowsdill,2023,31,Nacimiento,Mujer,11
+Stacia,Nan Carrow,2018,26,Aborto espontáneo,Mujer,21
+Blondelle,Kincaid,2014,18,Interrupción,Mujer,6
+Amitie,Jeanon,2012,19,Interrupción,Mujer,5
+Gina,Pischoff,2022,27,Interrupción,Mujer,11
+Katheryn,Dawidowitz,2017,18,Interrupción,Mujer,8
+Celestina,Cratere,2013,21,Interrupción,Mujer,15
+Milzie,Milby,2017,14,Aborto espontáneo,Mujer,9
+Vikki,Harrington,2019,22,Interrupción,Mujer,20
+Drucill,Jodrelle,2016,17,Aborto espontáneo,Mujer,15
+Madalyn,Standall,2016,20,Interrupción,Mujer,4
+Jacinda,Lowen,2013,23,Nacimiento,Mujer,13
+Selma,Frankel,2013,27,Aborto espontáneo,Mujer,8
+Shay,Paulin,2015,20,Aborto espontáneo,Mujer,19
+Luisa,O'Scully,2017,27,Aborto espontáneo,Mujer,1
+Bryn,Fontaine,2013,33,Aborto espontáneo,Mujer,1
+Lucilia,Putman,2012,16,Nacimiento,Mujer,7
+Saloma,Stiger,2013,35,Interrupción,Mujer,13
+Sherry,Spruce,2013,27,Nacimiento,Mujer,19
+Candice,Comsty,2013,22,Interrupción,Mujer,10
+Merrile,Dallaway,2011,18,Nacimiento,Mujer,12
+Lissa,Shailer,2017,19,Interrupción,Mujer,19
+Editha,Groll,2016,26,Interrupción,Mujer,7
+Marlene,Skynner,2021,20,Nacimiento,Mujer,3
+Moira,Simoncini,2012,15,Nacimiento,Mujer,8
+Davine,Winterborne,2020,24,Nacimiento,Mujer,18
+Jordain,Farnon,2015,29,Interrupción,Mujer,6
+Alidia,McFarlane,2012,33,Interrupción,Mujer,12
+Crin,Galle,2018,14,Nacimiento,Mujer,8
+Lina,Demoge,2022,15,Aborto espontáneo,Mujer,19
+Nedi,Oboy,2020,30,Interrupción,Mujer,16
+Joye,Forlong,2012,17,Nacimiento,Mujer,14
+Brietta,Alven,2012,29,Nacimiento,Mujer,8
+Robyn,Readmire,2013,15,Interrupción,Mujer,11
+Jaynell,Heatlie,2010,31,Aborto espontáneo,Mujer,6
+Julia,Husby,2017,19,Nacimiento,Mujer,9
+Jessica,Turl,2019,26,Interrupción,Mujer,11
+Rina,Currall,2020,22,Nacimiento,Mujer,5
+Daryl,Press,2015,22,Interrupción,Mujer,16
+Kathryne,Christy,2016,23,Aborto espontáneo,Mujer,15
+Traci,Skellon,2019,34,Nacimiento,Mujer,12
+Jenny,Allso,2015,23,Aborto espontáneo,Mujer,22
+Raf,Angrock,2016,28,Interrupción,Mujer,22
+Adora,Gullefant,2017,31,Aborto espontáneo,Mujer,8
+Ines,Reasun,2022,18,Aborto espontáneo,Mujer,21
+Belva,Tippetts,2019,16,Nacimiento,Mujer,10
+Norean,Saller,2015,19,Aborto espontáneo,Mujer,2
+Elinore,Pedwell,2021,21,Nacimiento,Mujer,12
+Erika,Dunrige,2019,26,Aborto espontáneo,Mujer,12
+Sheena,Foard,2014,14,Interrupción,Mujer,1
+Kelsey,Yeell,2013,19,Interrupción,Mujer,6
+Henriette,Colebourne,2023,17,Interrupción,Mujer,20
+Ginny,Roughan,2014,20,Interrupción,Mujer,2
+Aurore,Ofer,2013,23,Interrupción,Mujer,10
+Cristabel,Maciocia,2011,30,Nacimiento,Mujer,17
+Fey,Magog,2015,26,Nacimiento,Mujer,14
+Phillis,Kun,2016,15,Nacimiento,Mujer,13
+Marta,Blessed,2016,31,Aborto espontáneo,Mujer,17
+Raquela,Lambswood,2018,23,Aborto espontáneo,Mujer,12
+Maryl,Cocklie,2013,33,Interrupción,Mujer,18
+Ertha,Dodding,2017,32,Interrupción,Mujer,6
+Carole,D'eath,2018,22,Interrupción,Mujer,12
+Hyacintha,Portress,2018,34,Nacimiento,Mujer,16
+Dalia,Jarrel,2018,32,Interrupción,Mujer,17
+Benny,Bricknall,2014,22,Interrupción,Mujer,19
+Kameko,Stranio,2017,22,Interrupción,Mujer,19
+Bethena,Bateup,2023,29,Nacimiento,Mujer,6
+Breena,Cure,2020,32,Interrupción,Mujer,16
+Roselle,Wilcocke,2022,34,Interrupción,Mujer,2
+Gert,Houseago,2018,20,Nacimiento,Mujer,4
+Matilda,Selway,2015,31,Aborto espontáneo,Mujer,4
+Gigi,Rijkeseis,2017,26,Nacimiento,Mujer,19
+Norma,Purches,2014,29,Nacimiento,Mujer,5
+Alisa,McTurk,2011,29,Nacimiento,Mujer,11
+Noell,Hearne,2022,16,Nacimiento,Mujer,12
+Quintilla,Neeves,2014,17,Interrupción,Mujer,18
+Martie,Stalf,2015,17,Nacimiento,Mujer,17
+Sarette,Trusslove,2013,26,Interrupción,Mujer,13
+Karine,Sambrook,2017,31,Interrupción,Mujer,5
+Doralyn,Devanney,2014,19,Nacimiento,Mujer,18
+Henrieta,Loudyan,2012,25,Interrupción,Mujer,21
+Sharai,Sowman,2010,28,Nacimiento,Mujer,15
+Fayette,Merrigans,2016,27,Aborto espontáneo,Mujer,16
+Marti,Mullin,2010,27,Nacimiento,Mujer,15
+Dorri,Kleinpeltz,2011,32,Aborto espontáneo,Mujer,12
+Deirdre,Lynthal,2013,28,Interrupción,Mujer,4
+Devi,Galliver,2011,33,Aborto espontáneo,Mujer,13
+Jolynn,Paffley,2018,16,Interrupción,Mujer,20
+Norine,Ackland,2015,19,Nacimiento,Mujer,13
+Elinore,Itzkovich,2023,15,Interrupción,Mujer,17
+Mona,Waltho,2021,31,Aborto espontáneo,Mujer,19
+Daphene,Cubbinelli,2022,23,Nacimiento,Mujer,21
+Alyse,Dorgan,2020,15,Interrupción,Mujer,21
+Lainey,Suff,2010,33,Nacimiento,Mujer,17
+Kerstin,Dand,2016,26,Interrupción,Mujer,2
+Vivia,Murrison,2021,30,Nacimiento,Mujer,13
+Blondy,Ghest,2013,17,Nacimiento,Mujer,13
+Ardelle,Marzelo,2017,35,Nacimiento,Mujer,21
+Norene,Hofton,2015,23,Aborto espontáneo,Mujer,2
+Zara,Hembling,2023,14,Nacimiento,Mujer,21
+Gisela,Carlile,2017,20,Aborto espontáneo,Mujer,4
+Cherise,Franz,2019,22,Interrupción,Mujer,12
+Shandeigh,Wood,2010,31,Nacimiento,Mujer,8
+Sheree,Poynor,2013,27,Nacimiento,Mujer,8
+Cammy,Plumm,2016,17,Aborto espontáneo,Mujer,11
+Dodie,Ewens,2013,15,Nacimiento,Mujer,2
+Alvina,Bingell,2014,24,Nacimiento,Mujer,16
+Bibbye,McAdam,2018,33,Nacimiento,Mujer,14
+Dolley,Ship,2015,34,Aborto espontáneo,Mujer,17
+Sheelagh,Fragino,2015,16,Aborto espontáneo,Mujer,7
+Latrina,Grahame,2014,18,Interrupción,Mujer,12
+Terry,De Witt,2010,28,Aborto espontáneo,Mujer,15
+Kirstin,Tooting,2019,27,Nacimiento,Mujer,20
+Chelsie,Stonbridge,2013,20,Interrupción,Mujer,22
+Paulette,Ohanessian,2017,34,Aborto espontáneo,Mujer,10
+Halette,Gladman,2016,35,Aborto espontáneo,Mujer,9
+Elsey,Farr,2023,30,Aborto espontáneo,Mujer,22
+Gaby,Shaefer,2015,18,Nacimiento,Mujer,7
+Georgie,Tompion,2019,35,Nacimiento,Mujer,3
+Lishe,Slyde,2013,24,Nacimiento,Mujer,7
+Mariska,Breslauer,2014,27,Nacimiento,Mujer,2
+Nelle,Padefield,2017,34,Interrupción,Mujer,16
+Tabatha,Stickels,2015,35,Nacimiento,Mujer,10
+Doralyn,Minnock,2011,16,Interrupción,Mujer,7
+Aleda,Vala,2017,24,Interrupción,Mujer,14
+Randee,Ashe,2020,34,Aborto espontáneo,Mujer,2
+Pippa,Hulmes,2021,20,Interrupción,Mujer,12
+Yetta,Nutkin,2018,16,Nacimiento,Mujer,15
+Adelle,Fountaine,2010,34,Aborto espontáneo,Mujer,13
+Blythe,Kendrew,2018,27,Aborto espontáneo,Mujer,2
+Angeline,Traite,2022,34,Interrupción,Mujer,11
+Angil,Heaslip,2012,18,Interrupción,Mujer,6
+Nikki,Sanson,2021,27,Nacimiento,Mujer,9
+Mollee,McKiddin,2019,18,Aborto espontáneo,Mujer,21
+Marys,Bilverstone,2021,21,Aborto espontáneo,Mujer,15
+Sal,Percy,2021,22,Nacimiento,Mujer,2
+Pamella,Eeles,2014,32,Aborto espontáneo,Mujer,13
+Elysha,Petroselli,2020,28,Aborto espontáneo,Mujer,19
+Elita,Toquet,2014,27,Interrupción,Mujer,2
+Malanie,Blackett,2015,34,Aborto espontáneo,Mujer,9
+Almira,Heaffey,2020,20,Aborto espontáneo,Mujer,7
+Antonia,Martugin,2011,32,Aborto espontáneo,Mujer,20
+Dayna,Brantzen,2020,28,Interrupción,Mujer,16
+Gigi,Dictus,2023,32,Aborto espontáneo,Mujer,3
+Olympie,Averies,2015,19,Interrupción,Mujer,15
+Marianne,Ivimy,2020,16,Nacimiento,Mujer,22
+Melba,Eccleshare,2020,35,Aborto espontáneo,Mujer,10
+Benetta,Bramsom,2016,18,Nacimiento,Mujer,4
+Tatiana,Chape,2017,26,Aborto espontáneo,Mujer,17
+Dre,Bazell,2021,32,Interrupción,Mujer,1
+Harley,Hazley,2013,20,Nacimiento,Mujer,12
+Cecily,Roddan,2015,20,Aborto espontáneo,Mujer,10
+Dulcia,Joisce,2020,32,Nacimiento,Mujer,2
+Idalina,Shaddock,2013,19,Aborto espontáneo,Mujer,12
+Philomena,Kerss,2016,26,Nacimiento,Mujer,5
+Domeniga,Claricoats,2014,26,Nacimiento,Mujer,20
+Pris,Ream,2019,22,Aborto espontáneo,Mujer,2
+Kendra,Dye,2012,20,Nacimiento,Mujer,9
+Nikolia,Poynzer,2013,33,Nacimiento,Mujer,8
+Berri,McGall,2022,23,Interrupción,Mujer,11
+Ruth,Connechy,2021,34,Aborto espontáneo,Mujer,5
+Cassy,Duigan,2017,29,Interrupción,Mujer,5
+Bernadina,Bygrove,2022,17,Interrupción,Mujer,2
+Noelani,Smallbone,2012,31,Interrupción,Mujer,11
+Gertruda,Cicculini,2019,17,Aborto espontáneo,Mujer,18
+Tori,Heatlie,2018,26,Nacimiento,Mujer,18
+Genna,Rois,2015,19,Nacimiento,Mujer,2
+Shirleen,Haith,2021,27,Nacimiento,Mujer,22
+Darline,Dron,2020,34,Nacimiento,Mujer,15
+Nanci,Hammerberg,2021,33,Nacimiento,Mujer,18
+Kettie,Breens,2023,27,Aborto espontáneo,Mujer,11
+Rosita,Pidler,2020,24,Aborto espontáneo,Mujer,18
+Nadiya,Keech,2011,18,Aborto espontáneo,Mujer,3
+Wynnie,Spurling,2012,17,Interrupción,Mujer,17
+Jillayne,Bittleson,2017,21,Interrupción,Mujer,18
+Cherry,Saphin,2016,35,Interrupción,Mujer,20
+Bobinette,Brodest,2023,33,Aborto espontáneo,Mujer,10
+Wilow,Lightbourn,2020,35,Nacimiento,Mujer,21
+Janis,Crippell,2020,15,Nacimiento,Mujer,7
+Dot,Legging,2018,16,Nacimiento,Mujer,7
+Oralee,Cyples,2011,30,Aborto espontáneo,Mujer,9
+Madeline,Jansen,2016,22,Nacimiento,Mujer,12
+Julia,Castleton,2017,23,Aborto espontáneo,Mujer,11
+Corette,Georgiev,2021,33,Aborto espontáneo,Mujer,13
+Cele,Bispham,2020,14,Aborto espontáneo,Mujer,10
+Gabriell,Labadini,2015,34,Nacimiento,Mujer,21
+Amata,Piddick,2018,33,Aborto espontáneo,Mujer,7
+Chelsie,Tackes,2011,32,Interrupción,Mujer,8
+Nelli,Nineham,2012,21,Interrupción,Mujer,9
+Charity,Sirmond,2022,17,Nacimiento,Mujer,14
+Frances,Rozalski,2013,34,Nacimiento,Mujer,21
+Lyndsie,Baldam,2018,23,Aborto espontáneo,Mujer,7
+Theresa,Folli,2014,20,Interrupción,Mujer,12
+Eydie,Matschek,2016,24,Interrupción,Mujer,19

@@ -1,3 +1,9 @@
+CREATE TABLE pregnancy_result (
+                pregnancy_result_id SERIAL,
+                description VARCHAR(100) NOT NULL,
+                CONSTRAINT pregnancy_result_pk PRIMARY KEY (pregnancy_result_id)
+);
+
 CREATE TABLE diagnosis (
                 diagnosis_id SERIAL,
                 description VARCHAR(100) NOT NULL,
@@ -34,6 +40,16 @@ CREATE TABLE person (
                 first_name VARCHAR(50) NOT NULL,
                 last_name VARCHAR(100) NOT NULL,
                 CONSTRAINT person_pk PRIMARY KEY (person_id)
+);
+
+CREATE TABLE pregnancy (
+                pregnancy_id SERIAL,
+                pregnancy_year INTEGER NOT NULL,
+                age_at_pregnancy SMALLINT NOT NULL,
+                person_id BIGINT NOT NULL,
+                pregnancy_result_id BIGINT NOT NULL,
+                territory_id INTEGER NOT NULL,
+                CONSTRAINT pregnancy_pk PRIMARY KEY (pregnancy_id)
 );
 
 
@@ -92,6 +108,13 @@ CREATE TABLE exhumation (
                 CONSTRAINT exhumation_pk PRIMARY KEY (exhumation_id)
 );
 
+ALTER TABLE pregnancy ADD CONSTRAINT pregnancy_result_pregnancy_fk
+FOREIGN KEY (pregnancy_result_id)
+REFERENCES pregnancy_result (pregnancy_result_id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE;
+
 ALTER TABLE medical_evaluation ADD CONSTRAINT diagnosis_medical_evaluation_fk
 FOREIGN KEY (diagnosis_id)
 REFERENCES diagnosis (diagnosis_id)
@@ -142,6 +165,13 @@ ON UPDATE NO ACTION
 NOT DEFERRABLE;
 
 ALTER TABLE medical_evaluation ADD CONSTRAINT territory_medical_check_fk
+FOREIGN KEY (territory_id)
+REFERENCES territory (territory_id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE;
+
+ALTER TABLE pregnancy ADD CONSTRAINT territory_pregnancy_fk
 FOREIGN KEY (territory_id)
 REFERENCES territory (territory_id)
 ON DELETE NO ACTION
@@ -212,6 +242,13 @@ ON UPDATE NO ACTION
 NOT DEFERRABLE;
 
 ALTER TABLE offended ADD CONSTRAINT person_offended_fk
+FOREIGN KEY (person_id)
+REFERENCES person (person_id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE;
+
+ALTER TABLE pregnancy ADD CONSTRAINT person_pregnancy_fk
 FOREIGN KEY (person_id)
 REFERENCES person (person_id)
 ON DELETE NO ACTION
